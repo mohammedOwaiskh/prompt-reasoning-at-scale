@@ -119,7 +119,7 @@ prompt-reasoning-at-scale/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/prompt-reasoning-at-scale.git
+git clone https://github.com/mohammedOwaiskh/prompt-reasoning-at-scale.git
 cd prompt-reasoning-at-scale
 ```
 
