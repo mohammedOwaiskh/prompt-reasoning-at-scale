@@ -50,6 +50,18 @@ def sample_gsm8K(seed: int, n: int) -> list:
 
 
 def sample_commonsenseqa(seed: int, n: int) -> list:
+    """
+    Load and sample random questions from the CommonsenseQA dataset.
+    Args:
+        seed (int): Random seed for reproducibility of sampling.
+        n (int): Number of samples to randomly select from the dataset.
+    Returns:
+        list: A list of dictionaries, each containing:
+            - id (int): The original index of the sample in the dataset.
+            - question (str): The question text.
+            - choices (dict): A dictionary mapping choice labels (e.g., "A", "B", "C") to their corresponding text.
+            - answer (str): The correct answer key (e.g., "A", "B", "C").
+    """
 
     print("Loading CommonsenseQA...")
     ds = load_dataset("tau/commonsense_qa", split="validation")
