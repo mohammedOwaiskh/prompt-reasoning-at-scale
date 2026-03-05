@@ -79,8 +79,9 @@ prompt-reasoning-at-scale/
 ├── requirements.txt
 │
 ├── data/
-│   ├── gsm8k_100.json          # 100 sampled GSM8K questions
-│   └── csqa_100.json           # 100 sampled CommonsenseQA questions
+|   ├── sample_data.py               # Script to sample data from GSM8K and CommmonsenseQA
+│   ├── gsm8k.json                   # 100 sampled GSM8K questions
+│   └── commonsenseqa.json           # 100 sampled CommonsenseQA questions
 │
 ├── prompts/
 │   └── templates.py            # Prompt templates for all 3 strategies
