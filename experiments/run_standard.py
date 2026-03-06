@@ -1,13 +1,20 @@
 import argparse
 import json
+import os
+import sys
+
 from tqdm import tqdm
-from experiments.utils import (
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from utils import (
     extract_csqa_answer,
     extract_gsm8k_answer,
     load_model,
     run_inference,
     save_results,
 )
+
 from prompts.templates import standard_prompt
 
 
@@ -68,9 +75,11 @@ if __name__ == "__main__":
     parser.add_argument("--model", required=True, choices=["gemma-2b", "gemma-7b"])
     args = parser.parse_args()
 
-    for dataset, data_path in [
-        ("gsm8k", "data/gsm8k_100.json"),
-        ("csqa", "data/csqa_100.json"),
-    ]:
-        output_path = f"results/{dataset}_{args.model}_standard.csv"
-        run(args.model, dataset, data_path, output_path)
+    print(args)
+
+    # for dataset, data_path in [
+    #     ("gsm8k", "data/gsm8k_100.json"),
+    #     ("csqa", "data/csqa_100.json"),
+    # ]:
+    #     output_path = f"results/{dataset}_{args.model}_standard.csv"
+    #     run(args.model, dataset, data_path, output_path)
