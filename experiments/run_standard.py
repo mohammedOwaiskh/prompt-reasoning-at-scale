@@ -76,8 +76,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     for dataset, data_path in [
-        ("gsm8k", "data/gsm8k_100.json"),
-        ("csqa", "data/csqa_100.json"),
+        ("gsm8k", "data/gsm8k.json"),
+        ("csqa", "data/commonsenseqa.json"),
     ]:
         output_path = f"results/{dataset}_{args.model}_standard.csv"
         run(args.model, dataset, data_path, output_path)
