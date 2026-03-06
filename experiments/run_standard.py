@@ -75,11 +75,9 @@ if __name__ == "__main__":
     parser.add_argument("--model", required=True, choices=["gemma-2b", "gemma-7b"])
     args = parser.parse_args()
 
-    print(args)
-
-    # for dataset, data_path in [
-    #     ("gsm8k", "data/gsm8k_100.json"),
-    #     ("csqa", "data/csqa_100.json"),
-    # ]:
-    #     output_path = f"results/{dataset}_{args.model}_standard.csv"
-    #     run(args.model, dataset, data_path, output_path)
+    for dataset, data_path in [
+        ("gsm8k", "data/gsm8k_100.json"),
+        ("csqa", "data/csqa_100.json"),
+    ]:
+        output_path = f"results/{dataset}_{args.model}_standard.csv"
+        run(args.model, dataset, data_path, output_path)
