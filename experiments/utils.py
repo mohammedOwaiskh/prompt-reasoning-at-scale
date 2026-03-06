@@ -85,7 +85,7 @@ def run_inference(
         **inputs,
         max_new_tokens=max_new_tokens,
         do_sample=do_sample,
-        num_return_sequence=num_return_sequences,
+        num_return_sequences=num_return_sequences,
         pad_token_id=tokenizer.eos_token_id,
     )
 
