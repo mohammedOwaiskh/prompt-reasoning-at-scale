@@ -72,7 +72,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", required=True, choices=["gemma-2b", "gemma-7b"])
     args = parser.parse_args()
 
-    for dataset, data_path in [("gsm8k", "data/gsm8k_100.json"),
-                                ("csqa",  "data/csqa_100.json")]:
+    for dataset, data_path in [("gsm8k", "data/gsm8k.json"),
+                                ("csqa",  "data/commonsenseqa.json")]:
         output_path = f"results/{dataset}_{args.model}_fewshot.csv"
         run(args.model, dataset, data_path, output_path)
