@@ -2,7 +2,7 @@ import os
 import re
 import pandas as pd
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 MODEL_IDS = {
     "gemma-2b": "google/gemma-2b-it",
@@ -38,11 +38,25 @@ def load_model(model_name: str) -> tuple:
     print(f"Using Device: {device}")
 
     tokenizer = AutoTokenizer.from_pretrained(model_id)
-    model = AutoModelForCausalLM.from_pretrained(
-        model_id,
-        dtype=torch.float16 if device == "cuda" else torch.float32,
-        device_map="auto",
-    )
+
+    # Use 4-bit quantization for 7B to fit in T4 VRAM
+    if model_name == "gemma-7b":
+        quantization_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.float16,
+            bnb_4bit_use_double_quant=True,
+        )
+        model = AutoModelForCausalLM.from_pretrained(
+            model_id,
+            quantization_config=quantization_config,
+            device_map="auto",
+        )
+    else:
+        model = AutoModelForCausalLM.from_pretrained(
+            model_id,
+            dtype=torch.float16 if device == "cuda" else torch.float32,
+            device_map="auto",
+        )
 
     model.eval()
 
