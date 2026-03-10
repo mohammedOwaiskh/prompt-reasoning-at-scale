@@ -6,7 +6,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 MODEL_IDS = {
     "gemma-2b": "google/gemma-2b-it",
-    "gemma-7b": "",
+    "gemma-7b": "google/gemma-7b-it",
 }
 
 
