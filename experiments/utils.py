@@ -6,7 +6,6 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 MODEL_IDS = {
     "gemma-2b": "google/gemma-2b-it",
-    "gemma-7b": "google/gemma-7b-it",
 }
 
 
@@ -39,26 +38,11 @@ def load_model(model_name: str) -> tuple:
 
     tokenizer = AutoTokenizer.from_pretrained(model_id)
 
-    # Use 4-bit quantization for 7B to fit in T4 VRAM - Added for OutOfMemory error on T4
-    if model_name == "gemma-7b":
-        quantization_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.float16,
-            bnb_4bit_use_double_quant=True,
-            bnb_4bit_quant_type="nf4",
-        )
-        model = AutoModelForCausalLM.from_pretrained(
-            model_id,
-            quantization_config=quantization_config,
-            device_map="auto",
-            low_cpu_mem_usage=True,
-        )
-    else:
-        model = AutoModelForCausalLM.from_pretrained(
-            model_id,
-            dtype=torch.float16 if device == "cuda" else torch.float32,
-            device_map="auto",
-        )
+    model = AutoModelForCausalLM.from_pretrained(
+        model_id,
+        dtype=torch.float16 if device == "cuda" else torch.float32,
+        device_map="auto",
+    )
 
     model.eval()
 

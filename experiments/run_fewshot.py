@@ -1,20 +1,23 @@
-import sys
-import os
 import json
-import argparse
+import os
+import sys
+
 from tqdm import tqdm
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
-from prompts.templates import fewshot_prompt
 from utils import (
+    extract_csqa_answer,
+    extract_gsm8k_answer,
     load_model,
     run_inference,
-    extract_gsm8k_answer,
-    extract_csqa_answer,
-    save_results
+    save_results,
 )
+
+from prompts.templates import fewshot_prompt
+
+MODEL_NAME = "gemma-2b"
 
 
 def run(model_name: str, dataset_name: str, data_path: str, output_path: str):
@@ -23,10 +26,12 @@ def run(model_name: str, dataset_name: str, data_path: str, output_path: str):
     with open(data_path, "r") as f:
         data = json.load(f)
 
-    is_gsm8k = (dataset_name == "gsm8k")
+    is_gsm8k = dataset_name == "gsm8k"
     results = []
 
-    print(f"\nRunning Few-shot Standard Prompting (3-shot) | {model_name} | {dataset_name}")
+    print(
+        f"\nRunning Few-shot Standard Prompting (3-shot) | {model_name} | {dataset_name}"
+    )
     print("-" * 60)
 
     for item in tqdm(data, desc="Evaluating"):
@@ -35,9 +40,7 @@ def run(model_name: str, dataset_name: str, data_path: str, output_path: str):
 
         # Deterministic: temperature=0
         outputs = run_inference(
-            prompt, model, tokenizer, device,
-            temperature=0.0,
-            num_return_sequences=1
+            prompt, model, tokenizer, device, temperature=0.0, num_return_sequences=1
         )
         raw_output = outputs[0]
 
@@ -47,32 +50,35 @@ def run(model_name: str, dataset_name: str, data_path: str, output_path: str):
             predicted = extract_csqa_answer(raw_output)
 
         ground_truth = str(item["answer"]).strip()
-        correct = (predicted == ground_truth)
+        correct = predicted == ground_truth
 
-        results.append({
-            "id": item["id"],
-            "question": item["question"],
-            "ground_truth": ground_truth,
-            "raw_output": raw_output,
-            "predicted": predicted,
-            "correct": correct,
-            "strategy": "fewshot",
-            "model": model_name,
-            "dataset": dataset_name
-        })
+        results.append(
+            {
+                "id": item["id"],
+                "question": item["question"],
+                "ground_truth": ground_truth,
+                "raw_output": raw_output,
+                "predicted": predicted,
+                "correct": correct,
+                "strategy": "fewshot",
+                "model": model_name,
+                "dataset": dataset_name,
+            }
+        )
 
     accuracy = sum(r["correct"] for r in results) / len(results) * 100
-    print(f"\nAccuracy: {accuracy:.2f}% ({sum(r['correct'] for r in results)}/{len(results)})")
+    print(
+        f"\nAccuracy: {accuracy:.2f}% ({sum(r['correct'] for r in results)}/{len(results)})"
+    )
 
     save_results(results, output_path)
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--model", required=True, choices=["gemma-2b", "gemma-7b"])
-    args = parser.parse_args()
 
-    for dataset, data_path in [("gsm8k", "data/gsm8k.json"),
-                                ("csqa",  "data/commonsenseqa.json")]:
-        output_path = f"results/{dataset}_{args.model}_fewshot.csv"
-        run(args.model, dataset, data_path, output_path)
+    for dataset, data_path in [
+        ("gsm8k", "data/gsm8k.json"),
+        ("csqa", "data/commonsenseqa.json"),
+    ]:
+        output_path = f"results/{dataset}_{MODEL_NAME}_fewshot.csv"
+        run(MODEL_NAME, dataset, data_path, output_path)

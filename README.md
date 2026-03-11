@@ -1,6 +1,6 @@
 # prompt-reasoning-at-scale
 
-> A unified empirical evaluation of prompt-based reasoning strategies in Large Language Models across model scales.
+> A unified empirical evaluation of prompt-based reasoning strategies in Large Language Models.
 
 ---
 
@@ -8,32 +8,32 @@
 
 Recent advances in prompting have introduced a variety of strategies — such as Chain-of-Thought (CoT) and Self-Consistency — that claim to improve reasoning in Large Language Models. However, these techniques are typically evaluated under inconsistent conditions: different models, different datasets, and different experimental setups, making direct comparison unreliable.
 
-This project performs a **controlled, unified evaluation** of three prompting strategies across two model sizes and two reasoning benchmarks, to answer a core question:
+This project performs a **controlled, unified evaluation** of four prompting strategies on a single model across two reasoning benchmarks, to answer a core research question:
 
-> *Does the advantage of CoT and Self-Consistency over Standard Prompting depend on model scale — and if so, to what degree?*
+> *Which prompt-based reasoning strategies are most effective for mathematical reasoning vs. commonsense reasoning, and do the same strategies generalise across both task types?*
 
-This work is associated with a term paper submitted for the **Machine Learning for Natural Language Understanding** module.
+This work is associated with a term paper submitted for the **Trends in Machine Learning** module.
 
 ---
 
 ## Prompting Strategies
 
-| Strategy | Description |
-|---|---|
-| **Zero-shot Standard** | Direct question with no reasoning instructions |
-| **Zero-shot Chain-of-Thought (CoT)** | Appends *"Let's think step by step."* to elicit reasoning |
-| **Self-Consistency CoT** | Samples CoT reasoning 5 times, selects answer by majority vote |
+| # | Strategy | Description |
+|---|---|---|
+| 1 | **Zero-shot Standard** | Direct question with no examples and no reasoning instructions — baseline |
+| 2 | **Few-shot Standard (3-shot)** | 3 solved examples provided before the question, no reasoning instructions |
+| 3 | **Zero-shot CoT** | Appends *"Let's think step by step."* to elicit a reasoning chain |
+| 4 | **Self-Consistency CoT** | Samples CoT reasoning 5 times at temperature=0.7, selects answer by majority vote |
 
 ---
 
-## Models
+## Model
 
-Both models are from the same family to ensure a controlled scale comparison:
+| Model | HuggingFace ID | Type | Size |
+|---|---|---|---|
+| Gemma-2B-IT | `google/gemma-2b-it` | Decoder-only, instruction-tuned | 2B parameters |
 
-| Model | HuggingFace ID | Size |
-|---|---|---|
-| Flan-T5-Large | `google/flan-t5-large` | 780M parameters |
-| Flan-T5-XL | `google/flan-t5-xl` | 3B parameters |
+> **Note:** Gemma is a gated model. You must accept the license at [huggingface.co/google/gemma-2b-it](https://huggingface.co/google/gemma-2b-it) and use a HuggingFace access token to download it.
 
 ---
 
@@ -44,29 +44,34 @@ Both models are from the same family to ensure a controlled scale comparison:
 | **GSM8K** | Mathematical reasoning | 100 |
 | **CommonsenseQA** | Commonsense reasoning | 100 |
 
-Both datasets are sourced from HuggingFace's `datasets` library.
+Both datasets are sourced from HuggingFace's `datasets` library. 100 questions were sampled from each using a fixed random seed (seed=42) to ensure reproducibility.
 
 ---
 
 ## Experimental Design
 
-This study evaluates a **3 strategies × 2 models × 2 datasets = 12 experimental runs**, with 100 samples per run (~1,200 total inferences including Self-Consistency samples).
+This study evaluates **4 strategies × 2 datasets = 8 experimental runs**, with 100 samples per run (~600 total inferences including Self-Consistency samples).
 
 **Controlled Variables (held constant across all runs):**
-- Same 100 questions per dataset (fixed random seed for sampling)
-- `temperature=0` for Standard and CoT (deterministic)
+- Same 100 questions per dataset (fixed random seed=42)
+- `temperature=0` for Standard, Few-shot, and CoT (deterministic)
 - `temperature=0.7` for Self-Consistency sampling only
 - `max_new_tokens=512`
 - Same answer extraction logic per dataset
+- Same 3 fixed few-shot examples across all Few-shot runs
 
-**Hypothesis:** CoT and Self-Consistency will yield greater accuracy gains over Standard Prompting in Flan-T5-XL than in Flan-T5-Large, consistent with the emergent abilities hypothesis (Wei et al., 2022).
+**Research Questions:**
+1. Does Chain-of-Thought prompting improve accuracy over Standard Prompting?
+2. Do in-context examples (Few-shot) provide comparable gains to reasoning instructions (CoT)?
+3. Does Self-Consistency further improve CoT accuracy through sampling diversity?
+4. Do the same strategies generalise across both mathematical and commonsense reasoning tasks?
 
 ---
 
 ## Metrics
 
 - **Accuracy (%)** — primary metric, percentage of correctly answered questions
-- **Consistency Rate (%)** — for Self-Consistency only; percentage of questions where all 5 samples agreed on the same answer
+- **Consistency Rate (%)** — Self-Consistency only; percentage of questions where all 5 samples agreed on the same final answer
 
 ---
 
@@ -79,40 +84,41 @@ prompt-reasoning-at-scale/
 ├── requirements.txt
 │
 ├── data/
-|   ├── sample_data.py               # Script to sample data from GSM8K and CommmonsenseQA
-│   ├── gsm8k.json                   # 100 sampled GSM8K questions
-│   └── commonsenseqa.json           # 100 sampled CommonsenseQA questions
+│   ├── sample_data.py               # Downloads and samples 100 questions from each dataset
+│   ├── gsm8k_100.json               # 100 sampled GSM8K questions (seed=42)
+│   └── csqa_100.json                # 100 sampled CommonsenseQA questions (seed=42)
 │
 ├── prompts/
-│   └── templates.py            # Prompt templates for all 3 strategies
+│   └── templates.py                 # Prompt templates for all 4 strategies
 │
 ├── experiments/
-│   ├── run_standard.py         # Zero-shot Standard experiments
-│   ├── run_cot.py              # Zero-shot CoT experiments
-│   └── run_self_consistency.py # Self-Consistency CoT experiments
+│   ├── utils.py                     # Shared model loading, inference, answer extraction
+│   ├── run_standard.py              # Zero-shot Standard experiments
+│   ├── run_fewshot.py               # Few-shot Standard experiments
+│   ├── run_cot.py                   # Zero-shot CoT experiments
+│   └── run_self_consistency.py      # Self-Consistency CoT experiments
 │
 ├── results/
-│   ├── gsm8k_results.csv       # Raw outputs and scores — GSM8K
-│   └── csqa_results.csv        # Raw outputs and scores — CommonsenseQA
+│   ├── *_gemma-2b_*.csv             # Raw outputs and scores per run
+│   ├── summary_table.csv            # Aggregated accuracy table
+│   └── plot_*.png                   # Generated plots
 │
 └── analysis/
-    └── evaluate.py             # Accuracy calculation, tables, and plots
+    └── evaluate.py                  # Accuracy calculation, summary table, and plots
 ```
 
 ---
 
 ## Results
 
-*Results will be updated upon completion of experiments.*
+*Results will be updated upon completion of all experiments.*
 
-| Strategy | Model | GSM8K Accuracy | CommonsenseQA Accuracy |
-|---|---|---|---|
-| Standard | Flan-T5-Large | — | — |
-| CoT | Flan-T5-Large | — | — |
-| Self-Consistency | Flan-T5-Large | — | — |
-| Standard | Flan-T5-XL | — | — |
-| CoT | Flan-T5-XL | — | — |
-| Self-Consistency | Flan-T5-XL | — | — |
+| Strategy | GSM8K Accuracy (%) | CommonsenseQA Accuracy (%) |
+|---|---|---|
+| Zero-shot Standard | — | — |
+| Few-shot Standard | — | — |
+| Zero-shot CoT | — | — |
+| Self-Consistency CoT | — | — |
 
 ---
 
@@ -129,15 +135,29 @@ cd prompt-reasoning-at-scale
 pip install -r requirements.txt
 ```
 
-### 3. Run experiments
+### 3. Set up HuggingFace authentication
+Create a `.env` file in the repo root:
+```
+HF_TOKEN=hf_your_token_here
+```
+Get your token at [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens). Make sure your account has accepted the Gemma license.
+
+> ⚠️ Never commit your `.env` file. It is listed in `.gitignore`.
+
+### 4. Sample data (run once)
 ```bash
-# Run all strategies on GSM8K with Flan-T5-Large
-python experiments/run_standard.py --model flan-t5-large --dataset gsm8k
-python experiments/run_cot.py --model flan-t5-large --dataset gsm8k
-python experiments/run_self_consistency.py --model flan-t5-large --dataset gsm8k
+python data/sample_data.py
 ```
 
-### 4. Evaluate results
+### 5. Run all experiments
+```bash
+python experiments/run_standard.py --model gemma-2b
+python experiments/run_fewshot.py --model gemma-2b
+python experiments/run_cot.py --model gemma-2b
+python experiments/run_self_consistency.py --model gemma-2b
+```
+
+### 6. Evaluate and generate plots
 ```bash
 python analysis/evaluate.py
 ```
@@ -147,14 +167,23 @@ python analysis/evaluate.py
 ## Requirements
 
 ```
-transformers
-datasets
-torch
-accelerate
-pandas
-numpy
-scikit-learn
+transformers>=4.40.0
+datasets>=2.18.0
+torch>=2.0.0
+accelerate>=0.27.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+python-dotenv>=1.0.0
 ```
+
+---
+
+## Hardware Notes
+
+All experiments were conducted on a free-tier Google Colab instance with an NVIDIA T4 GPU (15GB VRAM). Gemma-2B-IT runs stably on this hardware in float16 precision. Larger models such as Gemma-7B were considered for a scale-based comparison but could not be stably loaded on the available hardware without quantization support. This is acknowledged as a limitation in the associated term paper.
 
 ---
 
@@ -163,9 +192,10 @@ scikit-learn
 - Wei, J. et al. (2022). *Chain-of-Thought Prompting Elicits Reasoning in Large Language Models.* NeurIPS 2022.
 - Wang, X. et al. (2023). *Self-Consistency Improves Chain of Thought Reasoning in Language Models.* ICLR 2023.
 - Wei, J. et al. (2022). *Emergent Abilities of Large Language Models.* TMLR 2022.
+- Brown, T. et al. (2020). *Language Models are Few-Shot Learners.* NeurIPS 2020.
 - Cobbe, K. et al. (2021). *Training Verifiers to Solve Math Word Problems (GSM8K).* arXiv.
 - Talmor, A. et al. (2019). *CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge.* NAACL 2019.
-- Chung, H. et al. (2022). *Scaling Instruction-Finetuned Language Models (Flan-T5).* arXiv.
+- Team, G. et al. (2024). *Gemma: Open Models Based on Gemini Research and Technology.* arXiv.
 
 ---
 

@@ -1,4 +1,3 @@
-import argparse
 import json
 import os
 import sys
@@ -16,6 +15,8 @@ from utils import (
 )
 
 from prompts.templates import standard_prompt
+
+MODEL_NAME = "gemma-2b"
 
 
 def run(model_name: str, dataset_name: str, data_path: str, output_path: str):
@@ -71,13 +72,10 @@ def run(model_name: str, dataset_name: str, data_path: str, output_path: str):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--model", required=True, choices=["gemma-2b", "gemma-7b"])
-    args = parser.parse_args()
 
     for dataset, data_path in [
         ("gsm8k", "data/gsm8k.json"),
         ("csqa", "data/commonsenseqa.json"),
     ]:
-        output_path = f"results/{dataset}_{args.model}_standard.csv"
-        run(args.model, dataset, data_path, output_path)
+        output_path = f"results/{dataset}_{MODEL_NAME}_standard.csv"
+        run(MODEL_NAME, dataset, data_path, output_path)
