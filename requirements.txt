@@ -3,4 +3,5 @@ datasets
 torch
 pandas
 numpy
+accelerate
 bitsandbytes

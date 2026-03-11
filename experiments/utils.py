@@ -39,7 +39,7 @@ def load_model(model_name: str) -> tuple:
 
     tokenizer = AutoTokenizer.from_pretrained(model_id)
 
-    # Use 4-bit quantization for 7B to fit in T4 VRAM
+    # Use 4-bit quantization for 7B to fit in T4 VRAM - Added for OutOfMemory error on T4
     if model_name == "gemma-7b":
         quantization_config = BitsAndBytesConfig(
             load_in_4bit=True,
@@ -50,6 +50,7 @@ def load_model(model_name: str) -> tuple:
             model_id,
             quantization_config=quantization_config,
             device_map="auto",
+            low_cpu_mem_usage=True,
         )
     else:
         model = AutoModelForCausalLM.from_pretrained(
