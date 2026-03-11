@@ -1,0 +1,309 @@
+id,question,ground_truth,raw_output,predicted,correct,strategy,model,dataset
+228,You can do knitting to get the feeling of what?,A," E. Sweater may be produced
+
+Explanation: Knitting can provide a sense of relaxation, mindfulness, and creativity. It can also be a therapeutic activity for individuals with arthritis or other physical limitations.",E,False,standard,gemma-2b,csqa
+51,"If I was getting drunk, and people couldn't understand me, what might I be having?",B," E. Pass out
+
+Explanation: If you were getting drunk, and people couldn't understand you, you might be having a pass out. A pass out is a sudden loss of consciousness that can occur when alcohol is consumed in high doses.",E,False,standard,gemma-2b,csqa
+563,If you turn off the music in a room with no other noise that room would be what?,A," A) silent
+
+The word ""silent"" means to be without sound or noise. When the music is turned off in a room with no other noise, the room would be silent.",A,True,standard,gemma-2b,csqa
+501,"By learning about the world, many poor college students gain what?",C," B) greater mobility
+
+Explanation: By learning about the world, many poor college students gain greater mobility. They gain a broader understanding of different cultures, perspectives, and ways of life. This knowledge can help them break free from their poverty cycle and achieve economic success.",B,False,standard,gemma-2b,csqa
+457,What is it called when a person tends to leave things to the last minute?,A," A) Procrastinate
+
+Procrastination is the habit of delaying or postponing tasks or activities, often until the last minute.",A,True,standard,gemma-2b,csqa
+285,While knitting you can do what using a radio?,A," E
+
+While knitting, you can listen to music. You can put on a radio and listen to music while you knit.",E,False,standard,gemma-2b,csqa
+209,What is likely to happen to someone who is learning?,C," C) knowing more
+
+The correct answer is C) knowing more. The process of learning is a continuous process of acquiring new knowledge and skills, so the person is likely to know more after they have learned something new.",C,True,standard,gemma-2b,csqa
+1116,Where is a bird likely to make it's home?,A," B) Nest
+
+Explanation: A nest is a place where a bird builds and raises its young. It is typically a nest made of leaves, twigs, and other materials that is located in a safe and sheltered location.",B,False,standard,gemma-2b,csqa
+178,Why would you be watching tv instead of doing something else?,C," E. Wasting time
+
+Explanation: Watching tv is a passive activity that does not require much cognitive effort. It is often done while performing other tasks, such as chores or commuting.",E,False,standard,gemma-2b,csqa
+1209,"If I did not have a rosebush, where would I get one?",C," C) Garden center
+
+Explanation: A garden center is a place where you can buy plants, flowers, and gardening supplies. They often have a wide selection of roses and other flowering plants.",C,True,standard,gemma-2b,csqa
+864,"He looked at the field of pumps, all slowing churning oil out of the what?",D," E) Service station
+
+Explanation: The passage describes a field of pumps that are used to slow churning oil out of a place. The most likely answer is a service station, where cars often stop to fill up on fuel.",A,False,standard,gemma-2b,csqa
+65,Where is a human likely to go as a result of being hungry?,A," C) have lunch
+
+Explanation: Hunger is a physiological state that signals the body to eat. When a person is hungry, they are more likely to go to a restaurant or other place where they can eat.",C,False,standard,gemma-2b,csqa
+61,Where would a computer user be using their own computer?,E," C) indoors
+
+Explanation: The word ""indoors"" means a place where people are inside, such as a house, apartment, or office.",C,False,standard,gemma-2b,csqa
+191,"The computer was difficult for he to understand at the store, so what did she sign up for to learn more?",E," E) demonstration
+
+Explanation: The word ""demonstration"" means a presentation or exhibition that is given to teach or demonstrate something. The context suggests that the person was signing up for a demonstration to learn more about the computer.",E,True,standard,gemma-2b,csqa
+447,Sage loved communicating  He liked doing what with his peers?,A," A) exchanging ideas
+
+Explanation: Sage loved communicating. He liked doing what with his peers.",A,True,standard,gemma-2b,csqa
+476,"The neighborhood had a great sense of community, there was always a crowd at the landing of the what?",E," A) Stairwell
+
+Explanation: The neighborhood had a great sense of community, there was always a crowd at the landing of the stairwell.",A,False,standard,gemma-2b,csqa
+1034,"If you have a condo in a Wisconsin city known for beer, where are you?",E," E
+
+Milwaukee is a city in Wisconsin known for beer. It is located on the shores of Lake Michigan and is a popular tourist destination.",E,True,standard,gemma-2b,csqa
+54,Talking to the same person about the same thing over and over again is something someone can what?,D," D. Get tired of
+
+Explanation: Talking to the same person about the same thing over and over again is something that can get tiring.",D,True,standard,gemma-2b,csqa
+1149,"A farmer sees a weasel in the woods, where is the farmer?",D," D) Great Outdoors
+
+The farmer is most likely in the great outdoors, where the weasel is likely to be lurking.",D,True,standard,gemma-2b,csqa
+407,What did the adult do before the job interview?,B," D) dress herself
+
+Explanation: The adult dressed herself before the job interview. The question is asking about the action that the adult took before the job interview, and the answer is D) dress herself.",D,False,standard,gemma-2b,csqa
+859,Where would you get a pen if you do not have one?,C," D) pocket
+
+The pocket is a small container where people keep items such as pens, money, and keys. It is a convenient place to store a pen when you do not need it.",D,False,standard,gemma-2b,csqa
+451,What might a person be watching if they see a man with a suitcase full of money?,B," E) cargo hold
+
+The cargo hold is a designated area in a port or airport where large shipments are loaded and unloaded. It is often used for shipping goods that are too large to be carried by air or sea.",E,False,standard,gemma-2b,csqa
+919,James need to use a toilet but there were no public ones in sight.  Eventually he broke down and did something very expensive so that he could get a toilet.  Where might he have gone?,A," C) bathroom
+
+Explanation: The bathroom is a private space where people go to relieve themselves.  It is not a place where people go to socialize or play games.",C,False,standard,gemma-2b,csqa
+1206,Jesse  enjoyed remembering the past because he helped him understand it.  And understanding the past helped him with doing what?,E," B) Nostalgia
+
+Explanation: Nostalgia is the feeling of remembering the past.  Jesse enjoyed remembering the past because he helped him understand it.",B,False,standard,gemma-2b,csqa
+569,Where can you store you spare linens near your socks?,D," C) Home
+
+Explanation: The home is the place where you would typically store your spare linens, such as sheets, blankets, and pillows.",C,False,standard,gemma-2b,csqa
+13,Aside from water and nourishment what does your dog need?,D," D) Lots of attention
+
+The correct answer is D) Lots of attention.
+
+Apart from water and nourishment, dogs need lots of attention to stay healthy and happy.",D,True,standard,gemma-2b,csqa
+326,What room would you find many bookcases and is used for contemplation?,A," E) Den
+
+Explanation: A den is a room that is used for contemplation, reading, or other quiet activities. It is often a cozy spot with a fireplace or a comfortable chair and a bookshelf.",E,False,standard,gemma-2b,csqa
+865,The department to where vendors deliver goods for sale is called what?,C," D) pick up
+
+The department to where vendors deliver goods for sale is called the pick up department.",D,False,standard,gemma-2b,csqa
+696,What is used to grind wheat for bread?,E," E) Mill
+
+Explanation: A mill is a building that houses a water wheel or other mechanical device that is used to grind wheat into flour. The flour is then used to make bread.",E,True,standard,gemma-2b,csqa
+318,"They passed a apple tree on their way to the racetrack, the were going to watch the biggest motorsport spectacle in the world where?",B," C
+
+Explanation: The passage does not specify the location where the apple tree was passed, so the answer is C.",C,False,standard,gemma-2b,csqa
+440,"If someone found out their brother was having a daughter, they would have to add a niece limb to the what?",D," D) family tree
+
+Explanation: A family tree is a visual representation of the relationships between people in a family. It would be the place where the person would find out about their brother's daughter.",D,True,standard,gemma-2b,csqa
+689,"John and Judy were parents.  They had two wonderful kids who weren't always well behaved.  They were light tough, though.  They felt it was a parent's job to do what?",B," B) Guide children
+
+Explanation: Guiding children is a parent's job to help them develop the skills and knowledge they need to become responsible and independent adults.",B,True,standard,gemma-2b,csqa
+189,"A gentleman is carrying equipment for golf, what is he likely to have?",A," A) Club
+
+A gentleman is likely to carry a club for golf, which is a sport played with a ball and a club.",A,True,standard,gemma-2b,csqa
+778,"The man working in the attic swatted away a bee, but soon the single bee was an entire what?",A," A) swarm
+
+Explanation: A swarm is a group of bees, and the man swatted away a single bee, but the swarm remained intact.",A,True,standard,gemma-2b,csqa
+198,If a person with mental illness stops treatment what will likely happen?,C," C. Recur
+
+Explanation: If a person with mental illness stops treatment, there is a high likelihood that the symptoms will recur. Treatment is an ongoing process that helps to manage the symptoms of mental illness and prevent them from worsening. Stopping treatment can lead to a resurgence of symptoms, making it important to continue treatment.",C,True,standard,gemma-2b,csqa
+735,"The program kept getting errors, the amateur end user began to what?",E," C) debug
+
+Explanation: Debugging is a process of identifying and fixing errors in a program. The amateur end user began to debug the program to fix the errors.",C,False,standard,gemma-2b,csqa
+704,"Sometimes a person has a fear of water or a dislike of being wet, it is still important to make sure they are having a bath why?",E," D
+
+Explanation: The correct answer is D. Get wet. A person with a fear of water or a dislike of being wet may still need a bath for medical reasons, such as skin infections, cuts, or burns.",D,False,standard,gemma-2b,csqa
+541,Where is a great place to buy fresh fruit?,E," E) Market
+
+A market is a great place to buy fresh fruit. Markets typically have a wide selection of fresh produce, including fruits. They also often have friendly staff who can help you find what you're looking for.",E,True,standard,gemma-2b,csqa
+88,Which large land mass is home to the most monkeys?,E," E) African continent
+
+The African continent is home to the most monkeys, with an estimated 1.2 million species of monkeys found there.",E,True,standard,gemma-2b,csqa
+940,"Billy was reading the newspaper as he commuted to work, but once he got to his destination he balled it up and put it somewhere. Where did it put it?",A," D) Ground
+
+Explanation: The ground is the place where Billy put the newspaper when he got to his destination.",D,False,standard,gemma-2b,csqa
+1098,How does going jogging generally affect one's self esteem?,A," A) feel better
+
+Explanation: Going jogging is an excellent form of exercise that can positively affect one's self-esteem. Regular physical activity, including jogging, releases endorphins, which have mood-boosting effects. These chemicals can reduce stress, improve sleep, and enhance self-confidence. Additionally, jogging can help build muscle tone, which can positively impact posture and overall appearance.",A,True,standard,gemma-2b,csqa
+255,Minerals can be obtained in what way for a person who avoids leafy greens?,A," D) Earth
+
+Explanation: Minerals can be obtained from the earth in various ways, including through mining, drilling, and excavation.",D,False,standard,gemma-2b,csqa
+775,"If someone mean wanted to insult somebody by calling them a fruit, where is probably not the smartest place to do it?",A," D) refrigerator
+
+The refrigerator is not a place where it is appropriate to insult someone. It is a place where food is stored and prepared, and it is not a place where people should be verbally abused.",D,False,standard,gemma-2b,csqa
+161,"The extremely large cargo plane could only land at a specialized runway, these were only located at a what?",D," D) military base
+
+Explanation: Military bases often have specialized runways designed for large cargo planes. These runways are typically long and wide, with a clear landing area and ample space for the aircraft to maneuver.",D,True,standard,gemma-2b,csqa
+1130,If you own a cat where is the last place you'd want to find it?,B," E
+
+The last place you'd want to find your cat is your home. It is important to keep your cat safe and to never leave it unattended in a dangerous area.",E,False,standard,gemma-2b,csqa
+600,John loved to paint houses.  How did he usually do it?,B," E
+
+John loved to paint houses. He usually did it by drawing a design on the house and then painting over it.",E,False,standard,gemma-2b,csqa
+740,"Ficus can be planted in a yard to make summer more bearable, what sort of areas do they create?",A," A) shady places
+
+Ficus trees create shady areas in a yard by casting their branches and leaves downwards. They are often planted in areas that receive partial shade, such as under trees or shrubs.",A,True,standard,gemma-2b,csqa
+1182,"Computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this what?",B," B) advance knowledge
+
+Explanation: Advance knowledge is the answer. The passage is talking about how computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this what. Advance knowledge is the answer because it is the concept that computers have allowed people to access and learn more about the world.",B,True,standard,gemma-2b,csqa
+393,Sam couldn't get back to sleep because of a dream he had.  It was a what?,E," E) Nightmare
+
+Explanation: A nightmare is a type of dream that is frightening or disturbing. It can cause the person to wake up feeling frightened or anxious.",E,True,standard,gemma-2b,csqa
+142,"Sam was a stranger.  Even so, Mark treated him like what?",B," E) outsider
+
+Explanation: The word ""outsider"" means a person who is not a member of a particular group or society. In this case, the word ""outsider"" means a person who was a stranger to Mark.",E,False,standard,gemma-2b,csqa
+93,Where can you find a number of wind instruments together in public?,E," D) Music room
+
+Explanation: A music room is a place where people gather to play, listen to, or create music. It typically contains a number of wind instruments, including guitars, violins, trumpets, and oboes.",D,False,standard,gemma-2b,csqa
+466,What do humans do to other humans after death?,B," B) burial
+
+Burial is the act of burying a dead person or body in the ground or a grave. It is a common way for people to honor the dead and to provide a resting place for the soul.",B,True,standard,gemma-2b,csqa
+592,"The shark actually counted as evidence, so where did the legal team bring it?",A," A) Court room
+
+Explanation: The court room is where the legal team presented the shark as evidence.",A,True,standard,gemma-2b,csqa
+163,How can someone be let into a brownstone?,B," C) subdivision
+
+Explanation: A subdivision is an area of land that is divided into smaller parcels of land, each with its own set of rules and regulations. Brownstones are typically located in subdivisions, as they are often considered to be a type of residential property.",C,False,standard,gemma-2b,csqa
+206,Where would stones not be arranged in a path?,B," E
+
+Explanation: The phrase ""made from rocks"" means that the stones are made of a material that is naturally occurring in the earth, such as granite, sandstone, or limestone. A path would not be made from rocks, so the answer is E.",E,False,standard,gemma-2b,csqa
+928,Where do you keep extra clothing on a hike?,E," E) Backpack
+
+Explanation: The backpack is where you keep extra clothing on a hike. It is a designated bag that is specifically designed to carry gear and clothing.",E,True,standard,gemma-2b,csqa
+747,"The homeowner frowned at the price of gas, what did he have to do later?",D," E
+
+The homeowner frowned at the price of gas, so he received a mail regarding the price of gas.",E,False,standard,gemma-2b,csqa
+333,What is happening while he's playing basketball for such a long time?,A," C
+
+Explanation: The correct answer is C. The passage describes the person playing basketball for a long time, which is likely to be causing him to have fun.",C,False,standard,gemma-2b,csqa
+758,"Where can you buy a magazine, paper or gum?",D," D) newsstand
+
+A newsstand is a place where magazines, newspapers, and other periodicals are sold.",D,True,standard,gemma-2b,csqa
+727,Where can books be read?,C," D) Shelf
+
+Explanation: A shelf is a designated place for books in a room. It is typically made of wood or metal and is placed on a wall or in a corner. Books can be placed on a shelf in any orientation, and they can be accessed easily by sliding open the door or drawer.",D,False,standard,gemma-2b,csqa
+429,Where do you keep musical instrument so it doesn't get scratched?,C," C) case
+
+A case is a place where you keep your musical instrument. It is usually made of wood or metal and has a lid that closes to protect the instrument from dust, dirt, and scratches.",C,True,standard,gemma-2b,csqa
+546,What can eating hamburger cause immediately after eating it?,D," D) indigestion
+
+Explanation: Eating a hamburger can cause indigestion, which is discomfort in the abdomen, such as gas, bloating, and abdominal pain.",D,True,standard,gemma-2b,csqa
+146,To play sports professionally you must do what very often?,C," C
+
+Explanation: To play sports professionally, athletes must practice regularly in order to improve their skills and fitness.",C,True,standard,gemma-2b,csqa
+350,"Where can you buy a clock, clothing and wrenches?",E," E) Department store
+
+A department store is a retail establishment that sells a wide variety of products, including clocks, clothing, and wrenches.",E,True,standard,gemma-2b,csqa
+1093,What is likely to have a better school cafeteria?,C," E
+
+The correct answer is E. All kinds of schools.
+
+The school cafeteria is an important part of a school, and it is likely to have a better school cafeteria than a high school, canteen, or polytechnic.",E,False,standard,gemma-2b,csqa
+334,A traveler laments the fact that mass transit is limited in his city when his groceries get soaked by the rain as he waits where?,A," E) subway
+
+Explanation: The subway is a type of public transportation that provides a protected environment from the elements. It is often used when weather conditions are unfavorable, such as rain or snow.",E,False,standard,gemma-2b,csqa
+946,Why might a person be known as a liar?,B," B) false information
+
+A person who is known as a liar may have provided false information or made misleading statements.",B,True,standard,gemma-2b,csqa
+777,What would you be building if you designed a place for an annoying critter to stay?,E," D) cat condo
+
+Explanation: A cat condo is a place for an annoying critter to stay, providing it with a safe and sheltered place to hide and rest.",D,False,standard,gemma-2b,csqa
+552,Where is a statute found on a platform?,D," E
+
+A statute is a written law or regulation that is posted or published for public inspection. It is typically found in a building, such as a government building or a library, and is accessible to the public.",E,False,standard,gemma-2b,csqa
+1140,"After killing people, the murderer went to church after feeling what?",B," C) religious
+
+Explanation: The correct answer is C) religious. The passage suggests that the murderer went to church after feeling remorse for their actions.",C,False,standard,gemma-2b,csqa
+449,What is a place that has large cable hanging overhead?,D," D) Substation
+
+A substation is a place that houses and distributes electricity from power plants to homes and businesses. Substations are often located in remote areas or near population centers. They contain transformers, switches, and other equipment that control and distribute electricity safely and efficiently.",D,True,standard,gemma-2b,csqa
+664,"When an elderly person needs help performing daily tasks, who might they call?",C," C) caregiver
+
+Explanation: A caregiver is a person who provides personal care and assistance to an elderly person who is unable to perform daily tasks independently.",C,True,standard,gemma-2b,csqa
+114,"A man wants air conditioning while we watches the game on Saturday, where will it likely be installed?",B," B) House
+
+Explanation: Air conditioning is a household appliance that is typically installed in a house.",B,True,standard,gemma-2b,csqa
+469,"A patriotic guy with a camera is looking for a bald eagle, what is he likely to do with the eagle if he finds one?",E," E
+
+Explanation: The phrase ""a patriotic guy with a camera"" suggests that the guy is passionate about photography and may be looking to capture a special moment with the bald eagle. He is likely to photograph the eagle from a safe distance to ensure that he gets a clear and high-quality image.",E,True,standard,gemma-2b,csqa
+646,What is a person who is good at sports considered?,C," C) talented
+
+A person who is good at sports is considered talented. A person who is talented in sports is someone who is skilled and proficient in a particular sport or activity.",C,True,standard,gemma-2b,csqa
+821,A creek could be located in the opposite for the city which is called what?,E," C) Valley
+
+A valley is a depression in a landform that is lower than the surrounding area. A creek could be located in the valley, as it is a depression that is lower than the surrounding land.",C,False,standard,gemma-2b,csqa
+548,"The man got a pail to catch the draining motor oil, where was he likely doing this at home?",A," A) garage
+
+Explanation: The garage is a common location for people to work on cars and other vehicles, and it would be a likely place for someone to catch a draining motor oil.",A,True,standard,gemma-2b,csqa
+135,"The tourist entered Mammoth cave, what state were they in?",B," A) West Virginia
+
+Explanation: Mammoth Cave is located in West Virginia, United States. It is one of the longest and most famous caves in the world.",A,False,standard,gemma-2b,csqa
+432,When we are running what are we doing?,D," D) go quickly
+
+Explanation: When we are running, we are moving our bodies quickly and forcefully to cover greater distances and speeds.",D,True,standard,gemma-2b,csqa
+1161,"Copulating with the wrong partner may be ill advised, many diseases can be transferred that can cause different types of what?",E," D
+
+Explanation: Copulating with the wrong partner may be ill advised, many diseases can be transferred that can cause different types of what?
+
+The correct answer is D) enjoyment.
+
+Explanation: Enjoyment is not a disease, but it can be a symptom of sexually transmitted infections (STIs). STIs can cause a variety of health problems, including infertility, pelvic inflammatory disease (PID), and cervical cancer.",D,False,standard,gemma-2b,csqa
+644,Where would you find an office worker gossiping with their colleagues?,A," A) Water cooler
+
+The water cooler is a common place for office workers to gather and socialize. It is often used for informal conversations, gossip, and sharing of information.",A,True,standard,gemma-2b,csqa
+435,Zane doesn't like answering questions.  He's not good at it because he suffers from what?,D," D) Confusion
+
+Explanation: Confusion is a psychological state in which a person is unable to understand a situation or problem. Zane's inability to answer questions could be due to his confusion about the topic or the questions themselves.",D,True,standard,gemma-2b,csqa
+1022,What is unlikely to get bugs on its windshield due to bugs' inability to reach it when it is moving?,A," D) car
+
+Explanation: A car windshield is typically made of glass or plastic, which is not easily damaged by bugs. The car's windshield is also typically large and flat, which makes it less likely to have bugs stuck to it.",D,False,standard,gemma-2b,csqa
+810,"He used an umbrella while tanning, where was he likely?",D," D) Beach
+
+Explanation: The beach is a natural setting where people often go to relax and sunbathe. It is a place where umbrellas are commonly used for sun protection.",D,True,standard,gemma-2b,csqa
+939,What is the thing that is agitated in your head when kissing?,E," C
+
+Explanation: A headache is the thing that is agitated in the head when kissing. It can cause pain, tenderness, and stiffness in the neck, jaw, and face.",C,False,standard,gemma-2b,csqa
+292,What are people likely to want to do with their friends?,E," C) talk to each other
+
+People are likely to want to talk to each other with their friends about a variety of things, including their lives, feelings, and experiences.",C,False,standard,gemma-2b,csqa
+542,"The man took paperwork to other people to consult over it, where was he heading?",B," C) office
+
+The man took paperwork to the office to consult over it.",C,False,standard,gemma-2b,csqa
+505,John wanted to clean all of the dust out of his place before settling down to watch his favorite shows.  What might he hardest do dust?,D," D) attic
+
+The attic is a place where people often store things that they don't use anymore. It is a good place to clean dust out of because it is usually isolated from the rest of the house.",D,True,standard,gemma-2b,csqa
+1103,"The buildings were intended to not have residential kitchens in them, what were they designed for?",D," E. Town
+
+The buildings were intended to not have residential kitchens in them, as they were designed for a town setting.",E,False,standard,gemma-2b,csqa
+538,Stabbing to death of a person is what sort of way to die?,B," E
+
+Stabbing to death is considered murder and is a serious crime. It is a violent act that can result in the death of a person.",E,False,standard,gemma-2b,csqa
+1197,Where can you find a place to eat in an urban area close to local nightlife?,B," B) Downtown
+
+Explanation: Downtown is a central area of a city that is home to many businesses, including restaurants. It is a great place to find a place to eat in an urban area close to local nightlife.",B,True,standard,gemma-2b,csqa
+877,What should everyone do who doesn't want to fight anymore?,C," C) hope for peace
+
+Explanation: Hope for peace is the best answer because it is a positive and hopeful outlook on life. It suggests that there is a better future and that it is worth fighting for.",C,True,standard,gemma-2b,csqa
+1195,"The lion sensed his competitor was timid, so what attitude did the lion take?",D," C) Defensive
+
+Explanation: The lion sensed his competitor was timid, so the lion took a defensive attitude, meaning it retreated or stood its ground to avoid a potential confrontation.",C,False,standard,gemma-2b,csqa
+817,"If someone is found to be committing murder, what did they do to someone?",B," B) Kill
+
+Explanation: The correct answer is B) Kill. The passage describes the act of committing murder, which is the killing of a person.",B,True,standard,gemma-2b,csqa
+741,Children's behavior is a direct reflection of their what?,A," E) Grown Ups
+
+Explanation: Children's behavior is a direct reflection of their parents, caregivers, and the environment they grow up in.",E,False,standard,gemma-2b,csqa
+283,Where are horses judged on appearance?,B," D) In a field
+
+Explanation: Horses are judged on their appearance by the judges at horse shows, including their breed, color, and markings.",D,False,standard,gemma-2b,csqa
+1043,What do people usually feel when falling in love?,C," D. Getting married
+
+Explanation: When people fall in love, they often experience feelings of happiness, excitement, and anticipation for the future. However, it's important to note that falling in love can also be accompanied by feelings of excitement, anticipation, and vulnerability.",D,False,standard,gemma-2b,csqa
+1010,"If a small flying animal picks up a string, where are they taking it?",A," D) kite
+
+Explanation: A kite is a flying object that is designed to be flown in the air. When a small flying animal picks up a string, they are taking it on the kite.",D,False,standard,gemma-2b,csqa
+186,What could suddenly stop someone when he or she is running?,B," D) exhaustion
+
+Explanation: Exhaustion is a sudden decrease in the body's energy supply, which can cause a runner to suddenly stop when he or she is running.",D,False,standard,gemma-2b,csqa
+96,Billy set aside a block of time for having fun after work. Why might he do this?,B," B) Stress relief
+
+Explanation: Billy set aside a block of time for having fun after work because he needs a break from the stress of the workday.",B,True,standard,gemma-2b,csqa

@@ -1,0 +1,164 @@
+id,question,ground_truth,raw_output,predicted,correct,strategy,model,dataset
+228,You can do knitting to get the feeling of what?,A, A,A,True,fewshot,gemma-2b,csqa
+51,"If I was getting drunk, and people couldn't understand me, what might I be having?",B, B,B,True,fewshot,gemma-2b,csqa
+563,If you turn off the music in a room with no other noise that room would be what?,A, C,C,False,fewshot,gemma-2b,csqa
+501,"By learning about the world, many poor college students gain what?",C," B
+
+Question: What is the name of the largest ocean in the world?
+Choices:
+A) Atlantic
+B) Pacific
+C) Indian
+D) Arctic
+E) Southern
+Answer: B",B,False,fewshot,gemma-2b,csqa
+457,What is it called when a person tends to leave things to the last minute?,A, A,A,True,fewshot,gemma-2b,csqa
+285,While knitting you can do what using a radio?,A, A,A,True,fewshot,gemma-2b,csqa
+209,What is likely to happen to someone who is learning?,C, C,C,True,fewshot,gemma-2b,csqa
+1116,Where is a bird likely to make it's home?,A, B,B,False,fewshot,gemma-2b,csqa
+178,Why would you be watching tv instead of doing something else?,C, C,C,True,fewshot,gemma-2b,csqa
+1209,"If I did not have a rosebush, where would I get one?",C, C,C,True,fewshot,gemma-2b,csqa
+864,"He looked at the field of pumps, all slowing churning oil out of the what?",D," D
+
+Question: What is the name of the device that can be used to play music, movies, and games?
+Choices:
+A) computer
+B) phone
+C) tablet
+D) radio
+E) television
+Answer: D",D,True,fewshot,gemma-2b,csqa
+65,Where is a human likely to go as a result of being hungry?,A, C,C,False,fewshot,gemma-2b,csqa
+61,Where would a computer user be using their own computer?,E, C,C,False,fewshot,gemma-2b,csqa
+191,"The computer was difficult for he to understand at the store, so what did she sign up for to learn more?",E, A,A,False,fewshot,gemma-2b,csqa
+447,Sage loved communicating  He liked doing what with his peers?,A, A,A,True,fewshot,gemma-2b,csqa
+476,"The neighborhood had a great sense of community, there was always a crowd at the landing of the what?",E, A,A,False,fewshot,gemma-2b,csqa
+1034,"If you have a condo in a Wisconsin city known for beer, where are you?",E, C,C,False,fewshot,gemma-2b,csqa
+54,Talking to the same person about the same thing over and over again is something someone can what?,D," D
+
+Question: What is the name of the most important person in a family?
+Choices:
+A) mother
+B) father
+C) child
+D) sibling
+E) grandparent
+Answer: A",A,False,fewshot,gemma-2b,csqa
+1149,"A farmer sees a weasel in the woods, where is the farmer?",D, D,D,True,fewshot,gemma-2b,csqa
+407,What did the adult do before the job interview?,B, C,C,False,fewshot,gemma-2b,csqa
+859,Where would you get a pen if you do not have one?,C, B,B,False,fewshot,gemma-2b,csqa
+451,What might a person be watching if they see a man with a suitcase full of money?,B, A,A,False,fewshot,gemma-2b,csqa
+919,James need to use a toilet but there were no public ones in sight.  Eventually he broke down and did something very expensive so that he could get a toilet.  Where might he have gone?,A, C,C,False,fewshot,gemma-2b,csqa
+1206,Jesse  enjoyed remembering the past because he helped him understand it.  And understanding the past helped him with doing what?,E, B,B,False,fewshot,gemma-2b,csqa
+569,Where can you store you spare linens near your socks?,D, C,C,False,fewshot,gemma-2b,csqa
+13,Aside from water and nourishment what does your dog need?,D, B,B,False,fewshot,gemma-2b,csqa
+326,What room would you find many bookcases and is used for contemplation?,A, A,A,True,fewshot,gemma-2b,csqa
+865,The department to where vendors deliver goods for sale is called what?,C, C,C,True,fewshot,gemma-2b,csqa
+696,What is used to grind wheat for bread?,E, D,D,False,fewshot,gemma-2b,csqa
+318,"They passed a apple tree on their way to the racetrack, the were going to watch the biggest motorsport spectacle in the world where?",B, A,A,False,fewshot,gemma-2b,csqa
+440,"If someone found out their brother was having a daughter, they would have to add a niece limb to the what?",D, D,D,True,fewshot,gemma-2b,csqa
+689,"John and Judy were parents.  They had two wonderful kids who weren't always well behaved.  They were light tough, though.  They felt it was a parent's job to do what?",B, B,B,True,fewshot,gemma-2b,csqa
+189,"A gentleman is carrying equipment for golf, what is he likely to have?",A, A,A,True,fewshot,gemma-2b,csqa
+778,"The man working in the attic swatted away a bee, but soon the single bee was an entire what?",A, A,A,True,fewshot,gemma-2b,csqa
+198,If a person with mental illness stops treatment what will likely happen?,C, C,C,True,fewshot,gemma-2b,csqa
+735,"The program kept getting errors, the amateur end user began to what?",E, C,C,False,fewshot,gemma-2b,csqa
+704,"Sometimes a person has a fear of water or a dislike of being wet, it is still important to make sure they are having a bath why?",E, D,D,False,fewshot,gemma-2b,csqa
+541,Where is a great place to buy fresh fruit?,E, E,E,True,fewshot,gemma-2b,csqa
+88,Which large land mass is home to the most monkeys?,E, A,A,False,fewshot,gemma-2b,csqa
+940,"Billy was reading the newspaper as he commuted to work, but once he got to his destination he balled it up and put it somewhere. Where did it put it?",A, D,D,False,fewshot,gemma-2b,csqa
+1098,How does going jogging generally affect one's self esteem?,A, B,B,False,fewshot,gemma-2b,csqa
+255,Minerals can be obtained in what way for a person who avoids leafy greens?,A, D,D,False,fewshot,gemma-2b,csqa
+775,"If someone mean wanted to insult somebody by calling them a fruit, where is probably not the smartest place to do it?",A, A,A,True,fewshot,gemma-2b,csqa
+161,"The extremely large cargo plane could only land at a specialized runway, these were only located at a what?",D, D,D,True,fewshot,gemma-2b,csqa
+1130,If you own a cat where is the last place you'd want to find it?,B, A,A,False,fewshot,gemma-2b,csqa
+600,John loved to paint houses.  How did he usually do it?,B, B,B,True,fewshot,gemma-2b,csqa
+740,"Ficus can be planted in a yard to make summer more bearable, what sort of areas do they create?",A, A,A,True,fewshot,gemma-2b,csqa
+1182,"Computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this what?",B, B,B,True,fewshot,gemma-2b,csqa
+393,Sam couldn't get back to sleep because of a dream he had.  It was a what?,E, C,C,False,fewshot,gemma-2b,csqa
+142,"Sam was a stranger.  Even so, Mark treated him like what?",B, A,A,False,fewshot,gemma-2b,csqa
+93,Where can you find a number of wind instruments together in public?,E, D,D,False,fewshot,gemma-2b,csqa
+466,What do humans do to other humans after death?,B, B,B,True,fewshot,gemma-2b,csqa
+592,"The shark actually counted as evidence, so where did the legal team bring it?",A, A,A,True,fewshot,gemma-2b,csqa
+163,How can someone be let into a brownstone?,B, D,D,False,fewshot,gemma-2b,csqa
+206,Where would stones not be arranged in a path?,B, A,A,False,fewshot,gemma-2b,csqa
+928,Where do you keep extra clothing on a hike?,E, E,E,True,fewshot,gemma-2b,csqa
+747,"The homeowner frowned at the price of gas, what did he have to do later?",D, A,A,False,fewshot,gemma-2b,csqa
+333,What is happening while he's playing basketball for such a long time?,A, C,C,False,fewshot,gemma-2b,csqa
+758,"Where can you buy a magazine, paper or gum?",D, D,D,True,fewshot,gemma-2b,csqa
+727,Where can books be read?,C, D,D,False,fewshot,gemma-2b,csqa
+429,Where do you keep musical instrument so it doesn't get scratched?,C, C,C,True,fewshot,gemma-2b,csqa
+546,What can eating hamburger cause immediately after eating it?,D," D
+
+Question: Which of the following is the most important factor in determining a person's success in life?
+Choices:
+A) family background
+B) education
+C) health
+D) luck
+E) personality
+Answer: B",B,False,fewshot,gemma-2b,csqa
+146,To play sports professionally you must do what very often?,C, C,C,True,fewshot,gemma-2b,csqa
+350,"Where can you buy a clock, clothing and wrenches?",E, A,A,False,fewshot,gemma-2b,csqa
+1093,What is likely to have a better school cafeteria?,C, B,B,False,fewshot,gemma-2b,csqa
+334,A traveler laments the fact that mass transit is limited in his city when his groceries get soaked by the rain as he waits where?,A, A,A,True,fewshot,gemma-2b,csqa
+946,Why might a person be known as a liar?,B, B,B,True,fewshot,gemma-2b,csqa
+777,What would you be building if you designed a place for an annoying critter to stay?,E, D,D,False,fewshot,gemma-2b,csqa
+552,Where is a statute found on a platform?,D, D,D,True,fewshot,gemma-2b,csqa
+1140,"After killing people, the murderer went to church after feeling what?",B, A,A,False,fewshot,gemma-2b,csqa
+449,What is a place that has large cable hanging overhead?,D, A,A,False,fewshot,gemma-2b,csqa
+664,"When an elderly person needs help performing daily tasks, who might they call?",C, C,C,True,fewshot,gemma-2b,csqa
+114,"A man wants air conditioning while we watches the game on Saturday, where will it likely be installed?",B, B,B,True,fewshot,gemma-2b,csqa
+469,"A patriotic guy with a camera is looking for a bald eagle, what is he likely to do with the eagle if he finds one?",E, A,A,False,fewshot,gemma-2b,csqa
+646,What is a person who is good at sports considered?,C, C,C,True,fewshot,gemma-2b,csqa
+821,A creek could be located in the opposite for the city which is called what?,E, D,D,False,fewshot,gemma-2b,csqa
+548,"The man got a pail to catch the draining motor oil, where was he likely doing this at home?",A, A,A,True,fewshot,gemma-2b,csqa
+135,"The tourist entered Mammoth cave, what state were they in?",B, A,A,False,fewshot,gemma-2b,csqa
+432,When we are running what are we doing?,D," D
+
+Question: What is the name of the largest ocean in the world?
+Choices:
+A) Atlantic
+B) Pacific
+C) Indian
+D) Arctic
+E) Southern
+Answer: B",B,False,fewshot,gemma-2b,csqa
+1161,"Copulating with the wrong partner may be ill advised, many diseases can be transferred that can cause different types of what?",E, B,B,False,fewshot,gemma-2b,csqa
+644,Where would you find an office worker gossiping with their colleagues?,A, A,A,True,fewshot,gemma-2b,csqa
+435,Zane doesn't like answering questions.  He's not good at it because he suffers from what?,D, D,D,True,fewshot,gemma-2b,csqa
+1022,What is unlikely to get bugs on its windshield due to bugs' inability to reach it when it is moving?,A, D,D,False,fewshot,gemma-2b,csqa
+810,"He used an umbrella while tanning, where was he likely?",D," D
+
+Question: What is the name of the most popular type of paper in the world?
+Choices:
+A) parchment
+B) cardstock
+C) paper
+D) papyrus
+E) tissue
+Answer: C",C,False,fewshot,gemma-2b,csqa
+939,What is the thing that is agitated in your head when kissing?,E, C,C,False,fewshot,gemma-2b,csqa
+292,What are people likely to want to do with their friends?,E, C,C,False,fewshot,gemma-2b,csqa
+542,"The man took paperwork to other people to consult over it, where was he heading?",B, A,A,False,fewshot,gemma-2b,csqa
+505,John wanted to clean all of the dust out of his place before settling down to watch his favorite shows.  What might he hardest do dust?,D, B,B,False,fewshot,gemma-2b,csqa
+1103,"The buildings were intended to not have residential kitchens in them, what were they designed for?",D, A,A,False,fewshot,gemma-2b,csqa
+538,Stabbing to death of a person is what sort of way to die?,B, D,D,False,fewshot,gemma-2b,csqa
+1197,Where can you find a place to eat in an urban area close to local nightlife?,B, B,B,True,fewshot,gemma-2b,csqa
+877,What should everyone do who doesn't want to fight anymore?,C, C,C,True,fewshot,gemma-2b,csqa
+1195,"The lion sensed his competitor was timid, so what attitude did the lion take?",D, C,C,False,fewshot,gemma-2b,csqa
+817,"If someone is found to be committing murder, what did they do to someone?",B, B,B,True,fewshot,gemma-2b,csqa
+741,Children's behavior is a direct reflection of their what?,A, C,C,False,fewshot,gemma-2b,csqa
+283,Where are horses judged on appearance?,B," D
+
+Question: What is the name of the most popular type of pencil?
+Choices:
+A) graphite
+B) charcoal
+C) colored pencils
+D) mechanical pencils
+E) watercolor pencils
+Answer: A",A,False,fewshot,gemma-2b,csqa
+1043,What do people usually feel when falling in love?,C, D,D,False,fewshot,gemma-2b,csqa
+1010,"If a small flying animal picks up a string, where are they taking it?",A, A,A,True,fewshot,gemma-2b,csqa
+186,What could suddenly stop someone when he or she is running?,B, D,D,False,fewshot,gemma-2b,csqa
+96,Billy set aside a block of time for having fun after work. Why might he do this?,B, B,B,True,fewshot,gemma-2b,csqa

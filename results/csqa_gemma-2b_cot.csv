@@ -1,0 +1,958 @@
+id,question,ground_truth,raw_output,predicted,correct,strategy,model,dataset
+228,You can do knitting to get the feeling of what?,A,":
+
+1. Knitting is a repetitive activity that requires focus and concentration.
+2. The repetitive nature of knitting can help to reduce stress and anxiety.
+3. Knitting can also be a form of relaxation.
+4. Arthritis is a condition that affects the joints and muscles, and knitting is not recommended for people with arthritis.
+5. Adrenaline is a hormone that is released in the body during physical exertion, and knitting is not a form of physical exertion.
+6. A sweater is a knitted garment that is typically worn on the body, and knitting can be used to create a sweater.
+
+So, the answer is A) relaxation.",A,True,cot,gemma-2b,csqa
+51,"If I was getting drunk, and people couldn't understand me, what might I be having?",B,":
+
+**Step 1:** If you were getting drunk, you might be experiencing impaired judgment and coordination, which could lead to slurred speech and difficulty understanding others.
+
+**Step 2:** Slurred speech is a common symptom of alcohol intoxication, as it can make it difficult for you to express yourself clearly.
+
+**Step 3:** If you were unable to understand others, you might be experiencing a seizure, which is a medical emergency that can be caused by alcohol intoxication.
+
+**Step 4:** A seizure can manifest with symptoms such as shaking, muscle spasms, and loss of consciousness.
+
+**Step 5:** If you were unable to breathe or were unconscious, you could be having a medical emergency that requires immediate attention.
+
+**Step 6:** Forgetfulness is not a symptom of alcohol intoxication, but it can be a symptom of other medical conditions.
+
+**Step 7:** If you were unable to pass urine or were experiencing other medical symptoms, you could be having a medical emergency that requires immediate attention.
+
+**Conclusion:**
+
+If you were getting drunk and people couldn't understand you, you might be having a seizure, slurred speech, or a medical emergency that requires immediate attention.",A,False,cot,gemma-2b,csqa
+563,If you turn off the music in a room with no other noise that room would be what?,A,":
+
+If the music is turned off, there is no sound to fill the room. This means that the room would be silent.
+
+The correct answer is **A) silent**",A,True,cot,gemma-2b,csqa
+501,"By learning about the world, many poor college students gain what?",C,":
+
+**Step 1:** Poverty is a global issue that affects millions of people.
+
+**Step 2:** Many poor college students come from disadvantaged backgrounds and face significant challenges in accessing quality education.
+
+**Step 3:** By learning about the world, these students gain a broader understanding of different cultures, perspectives, and issues.
+
+**Step 4:** This knowledge can empower them to make informed decisions, advocate for change, and break free from the cycle of poverty.
+
+**Step 5:** Therefore, the correct answer is **B) greater mobility.**
+
+By learning about the world, many poor college students gain greater mobility and opportunities for a better future.",A,False,cot,gemma-2b,csqa
+457,What is it called when a person tends to leave things to the last minute?,A,":
+
+1. Procrastination is a behavior that involves delaying or postponing tasks or activities.
+2. The person tends to leave things to the last minute.
+3. Therefore, procrastinating is the correct answer.
+
+The correct answer is **A) Procrastination**",A,True,cot,gemma-2b,csqa
+285,While knitting you can do what using a radio?,A,":
+
+1. Knitting needles are inserted into the fabric.
+2. Yarn is pulled through the needles.
+3. The needles are pulled through the fabric again.
+4. The loop of yarn is pulled tight.
+5. The needle is removed from the fabric.
+
+While knitting, the needles are used to insert and remove yarn from the fabric. Therefore, the correct answer is **E) watching tv**.",E,False,cot,gemma-2b,csqa
+209,What is likely to happen to someone who is learning?,C,":
+
+1. The person is learning something new.
+2. The person is exposed to new information.
+3. The person processes the information and begins to understand it.
+4. The person applies the knowledge to new situations.
+5. The person's confidence in their ability to learn increases.
+
+So, the correct answer is **B) effectiveness.**
+
+Effectiveness is the ability to apply knowledge and skills to achieve desired results. When someone is learning, they are actively engaging with new information and applying it to their own experiences. This process helps them to understand and retain the material, leading to increased effectiveness in the future.",B,False,cot,gemma-2b,csqa
+1116,Where is a bird likely to make it's home?,A,":
+
+A bird needs a place to rest, raise its young, and find food. These needs are met best in a nest built by the bird itself. Therefore, the answer is **B) nest**.",A,True,cot,gemma-2b,csqa
+178,Why would you be watching tv instead of doing something else?,C,":
+
+1. Identify the stimulus: The stimulus is the TV.
+2. Identify the response: The response is watching TV.
+3. Identify the antecedent: The antecedent is the stimulus, the TV.
+4. Identify the consequent: The consequent is the response, watching TV.
+5. Determine the relationship between the antecedent and the consequent: The relationship is that the stimulus causes the response.
+
+Therefore, the answer is **E) wasting time**.",E,False,cot,gemma-2b,csqa
+1209,"If I did not have a rosebush, where would I get one?",C,":
+
+**Step 1:** If you didn't have a rosebush, where would you get one?
+
+**A) pot**
+
+**Explanation:** A pot is a container used to grow plants. It is often made of plastic, ceramic, or metal.
+
+**B) museum**
+
+**Explanation:** A museum is a place that houses and exhibits artifacts, including plants. They may have a small collection of roses or other plants on display.
+
+**C) garden center**
+
+**Explanation:** A garden center is a store that sells plants, gardening supplies, and other garden equipment. They often have a wide selection of roses and other plants on display.
+
+**D) formal garden**
+
+**Explanation:** A formal garden is a garden that is designed and maintained to a high standard. It is often found in a park or other public setting.
+
+**E) backyard**
+
+**Explanation:** The backyard is the area of a house where people typically relax and enjoy their outdoor space. It is a natural place to grow roses or other plants.",A,False,cot,gemma-2b,csqa
+864,"He looked at the field of pumps, all slowing churning oil out of the what?",D,":
+
+The sentence is talking about a field of pumps. A field is a large area of land with a lot of things in it. So, the answer is **E) service station**.",A,False,cot,gemma-2b,csqa
+65,Where is a human likely to go as a result of being hungry?,A,":
+
+1. Hunger causes the body to release hormones that stimulate the release of glucose from the liver.
+2. Glucose is used by cells for energy.
+3. Cells use glucose to produce energy.
+4. When there is not enough glucose, cells become starved and start to break down proteins and fats for energy.
+5. When cells break down proteins and fats, they release amino acids and fatty acids into the bloodstream.
+6. Amino acids and fatty acids are transported to cells, where they are used to build new proteins and fats.
+7. Cells use energy from glucose to produce ATP (adenosine triphosphate), the energy currency of cells.
+8. ATP is used by cells to perform various functions, including muscle contraction, nerve signaling, and chemical synthesis.
+
+Therefore, the human is likely to go to a restaurant to eat lunch as a result of being hungry.",A,True,cot,gemma-2b,csqa
+61,Where would a computer user be using their own computer?,E,":
+
+A computer user would be using their own computer in the C) indoors option. The indoor option refers to a physical location where a computer is used, which is the user's home or office.",A,False,cot,gemma-2b,csqa
+191,"The computer was difficult for he to understand at the store, so what did she sign up for to learn more?",E,":
+
+1. The computer was difficult for him to understand at the store.
+2. She signed up for a class to learn more.
+3. The answer is A) classroom.
+
+The correct answer is A) classroom.",A,False,cot,gemma-2b,csqa
+447,Sage loved communicating  He liked doing what with his peers?,A,":
+
+1. Sage loved communicating.
+2. He liked doing what with his peers.
+
+Therefore, the answer is **A) exchanging ideas**.",A,True,cot,gemma-2b,csqa
+476,"The neighborhood had a great sense of community, there was always a crowd at the landing of the what?",E,":
+
+The neighborhood had a great sense of community, there was always a crowd at the landing of the **stairwell**.",A,False,cot,gemma-2b,csqa
+1034,"If you have a condo in a Wisconsin city known for beer, where are you?",E,":
+
+1. Wisconsin is located in the Midwest region of the United States.
+2. Milwaukee is a city in Wisconsin known for beer.
+3. Therefore, the answer is E) Milwaukee.",E,True,cot,gemma-2b,csqa
+54,Talking to the same person about the same thing over and over again is something someone can what?,D,":
+
+1. The person is talking to the same person about the same thing over and over again.
+2. This can be a sign of boredom or a way for the person to socialize.
+3. The person may be trying to get the other person to open up or share something.
+4. The person may be using this tactic to get the other person to do something for them.
+5. The person may be trying to learn from the other person.
+
+The correct answer is D) get tired of.
+
+The person is getting tired of talking to the same person about the same thing over and over again.",D,True,cot,gemma-2b,csqa
+1149,"A farmer sees a weasel in the woods, where is the farmer?",D,":
+
+1. The farmer sees a weasel.
+2. The farmer is in the woods.
+3. The farmer is somewhere in the great outdoors.
+
+The correct answer is D) Great Outdoors.",D,True,cot,gemma-2b,csqa
+407,What did the adult do before the job interview?,B,":
+
+The adult did dress herself before the job interview.
+
+The answer is D) dress herself.",D,False,cot,gemma-2b,csqa
+859,Where would you get a pen if you do not have one?,C,":
+
+**Step 1:** If you do not have a pen, where would you look for one?
+
+**Step 2:** A briefcase is a large bag that is often used for work or school. It is not a place where you would typically look for a pen.
+
+**Step 3:** A desk drawer is a compartment on a desk that is used for storing papers and other items. It is not a place where you would typically look for a pen.
+
+**Step 4:** A friend's house is not a place where you would typically look for a pen.
+
+**Step 5:** The pocket is a small pocket on the side of a garment that is used for holding small items. It is not a place where you would typically look for a pen.
+
+**Step 6:** The sidewalk is not a place where you would typically look for a pen.
+
+Therefore, the correct answer is **B) desk drawer**.",A,False,cot,gemma-2b,csqa
+451,What might a person be watching if they see a man with a suitcase full of money?,B,":
+
+1. The man is carrying a suitcase full of money.
+2. People often watch baggage compartments when they are full of luggage.
+3. Therefore, the answer is **A) baggage compartment**.",A,False,cot,gemma-2b,csqa
+919,James need to use a toilet but there were no public ones in sight.  Eventually he broke down and did something very expensive so that he could get a toilet.  Where might he have gone?,A,":
+
+James needed to use the toilet, but there were no public restrooms nearby. He eventually broke down and did something very expensive so that he could get a toilet. Where might he have gone?
+
+The answer is **C) bathroom**
+
+The bathroom is a private space where people go to use the toilet. It is not a public place, and James would not have been able to use a public restroom without being aware of the location.",A,True,cot,gemma-2b,csqa
+1206,Jesse  enjoyed remembering the past because he helped him understand it.  And understanding the past helped him with doing what?,E,":
+
+1. Jesse enjoyed remembering the past because he helped him understand it.
+2. Understanding the past helped him with doing what?
+
+The answer is B) nostalgia.
+
+Nostalgia is the feeling of remembering the past. It can be used to evoke positive or negative emotions, and it can help us to understand our present lives.",B,False,cot,gemma-2b,csqa
+569,Where can you store you spare linens near your socks?,D,":
+
+1. You have your spare linens.
+2. You need a place to store them.
+3. You need to find a place near your socks.
+4. The answer is C) home.
+
+So, the answer is C) home.",C,False,cot,gemma-2b,csqa
+13,Aside from water and nourishment what does your dog need?,D,".
+
+**Step 1: Basic Needs**
+
+A dog's basic needs include water and nourishment. These are essential for the dog's survival and well-being.
+
+**Step 2: Social Needs**
+
+Dogs are social animals and need interaction with their owners and other dogs. This includes playing, cuddling, and providing attention. Social interaction helps to keep the dog mentally stimulated and reduces stress.
+
+**Step 3: Physical Needs**
+
+A dog needs a safe and comfortable place to sleep, rest, and exercise. This includes a bed, crate, or other designated area. Dogs also need regular walks and playtime to stay physically fit and maintain their health.
+
+**Step 4: Emotional Needs**
+
+Dogs are emotional creatures and need to feel love, affection, and attention from their owners. This includes petting, talking to, and playing with the dog. Emotional needs help to strengthen the bond between the dog and its owner.
+
+**Step 5: Safety Needs**
+
+A dog needs to be kept safe from harm. This includes avoiding dangerous objects, such as knives, toxic plants, and other pets. Dogs also need to be vaccinated and kept up-to-date on their vaccinations to protect them from diseases.
+
+**Step 6: Training Needs**
+
+Dogs are intelligent animals that can be trained to perform tricks and obey commands. Training helps to improve the bond between the dog and its owner and teaches the dog good behavior.
+
+**Step 7: Mental Stimulation**
+
+Dogs need mental stimulation to stay healthy and happy. This can include providing toys, puzzles, and other activities that challenge the dog's mind. Mental stimulation helps to keep the dog's brain active and prevents boredom.",A,False,cot,gemma-2b,csqa
+326,What room would you find many bookcases and is used for contemplation?,A,":
+
+The word ""bookcase"" suggests a room with shelves or cabinets for storing books. The word "" contemplation"" suggests a place for quiet reflection and thought. So, the answer is **A) study.**
+
+The study is a room typically used for academic purposes, with desks, chairs, and books. It is often used for studying, research, and writing.",A,True,cot,gemma-2b,csqa
+865,The department to where vendors deliver goods for sale is called what?,C,":
+
+The department where vendors deliver goods for sale is called the **receiving department**. This is where goods are received and stored until they are ready to be sold.",,False,cot,gemma-2b,csqa
+696,What is used to grind wheat for bread?,E,":
+
+1. Farmers grow wheat.
+2. Wheat is harvested and cleaned.
+3. The wheat is stored.
+4. The wheat is ground into flour.
+5. The flour is used to make bread.
+
+Therefore, the answer is **E) mill.**
+
+The mill is a machine used to grind wheat into flour. It is typically powered by water and has a series of rollers that crush the wheat into flour.",E,True,cot,gemma-2b,csqa
+318,"They passed a apple tree on their way to the racetrack, the were going to watch the biggest motorsport spectacle in the world where?",B,":
+
+The passage does not specify the location where the apple tree was passed, so we cannot answer this question from the provided context.",,False,cot,gemma-2b,csqa
+440,"If someone found out their brother was having a daughter, they would have to add a niece limb to the what?",D,".
+
+**Step 1:** If someone found out their brother was having a daughter, they would have to add a niece limb to the **family tree**.
+
+**Step 2:** The family tree is a visual representation of the family's lineage and relationships. Adding a niece limb to the family tree would represent the new generation of the family, the daughter of the brother.",A,False,cot,gemma-2b,csqa
+689,"John and Judy were parents.  They had two wonderful kids who weren't always well behaved.  They were light tough, though.  They felt it was a parent's job to do what?",B,":
+
+John and Judy were parents. They had two wonderful kids who weren't always well behaved. They were light tough, though. They felt it was a parent's job to do what?
+
+**A) control children**
+
+The correct answer is A) control children. John and Judy were parents, and they had the responsibility to control their children's behavior in order to create a safe and healthy environment for them to grow and learn.",A,False,cot,gemma-2b,csqa
+189,"A gentleman is carrying equipment for golf, what is he likely to have?",A,":
+
+The correct answer is **A) club**
+
+The gentleman is likely to be carrying a club for golf, which is a sport that involves hitting a ball with a club.",A,True,cot,gemma-2b,csqa
+778,"The man working in the attic swatted away a bee, but soon the single bee was an entire what?",A,":
+
+The man swatted away a bee, so the bee became a swarm. A swarm is a group of bees, so the bee became a swarm.",A,True,cot,gemma-2b,csqa
+198,If a person with mental illness stops treatment what will likely happen?,C,":
+
+**Step 1:** If a person with mental illness stops treatment, the symptoms of their illness are likely to worsen. This is because untreated mental illness can lead to a number of negative consequences, including increased symptoms, difficulty functioning, and increased risk of suicide.
+
+**Step 2:** As a result of worsening symptoms, the person may become more difficult to manage. This is because their symptoms can make it difficult for them to think clearly, make decisions, and interact with others.
+
+**Step 3:** The person may also experience a number of negative side effects of treatment, such as depression, anxiety, and insomnia.
+
+**Step 4:** If the person stops treatment while they are still experiencing symptoms, they are more likely to relapse to their illness. This is because they may not have received the support they needed to cope with their symptoms and maintain recovery.
+
+**Step 5:** In some cases, stopping treatment can even lead to a worsening of symptoms. This is because untreated mental illness can be a chronic condition that can progress over time.
+
+**Conclusion:**
+
+If a person with mental illness stops treatment, the likelihood is high that their symptoms will worsen, making it more difficult for them to be managed. The person may also experience a number of negative side effects of treatment, and they are more likely to relapse to their illness if they stop treatment while they are still experiencing symptoms.",A,False,cot,gemma-2b,csqa
+735,"The program kept getting errors, the amateur end user began to what?",E,":
+
+1. The program kept getting errors.
+2. The amateur end user began to debug.
+3. The amateur end user compiled the program.
+4. The amateur end user wrote code.
+5. The amateur end user got frustrated.
+
+The correct answer is **C) debug**
+
+The amateur end user began to debug the program to fix the errors.",C,False,cot,gemma-2b,csqa
+704,"Sometimes a person has a fear of water or a dislike of being wet, it is still important to make sure they are having a bath why?",E,":
+
+**Step 1:** A person has a fear of water or a dislike of being wet.
+
+**Step 2:** This fear or dislike prevents the person from participating in certain activities, including taking a bath.
+
+**Step 3:** A bath is a routine activity that helps to clean, relax, and rejuvenate the body.
+
+**Step 4:** Despite the fear or dislike, it is important to make sure the person has a bath to maintain their health and well-being.
+
+**Answer: D) get wet**
+
+The correct answer is D) get wet. A bath is a routine activity that helps to clean, relax, and rejuvenate the body.",D,False,cot,gemma-2b,csqa
+541,Where is a great place to buy fresh fruit?,E,":
+
+1. A great place to buy fresh fruit would be in a market or a tree.
+2. A market is a place where people come to buy goods and services.
+3. A tree is not a place where people come to buy goods and services.
+4. A refrigerator is not a place where people come to buy goods and services.
+5. A big box retailer is a place where people come to buy goods and services.
+
+The correct answer is E) market.",E,True,cot,gemma-2b,csqa
+88,Which large land mass is home to the most monkeys?,E,":
+
+1. The Amazon basin is the largest tropical rainforest in the world, and it is home to a wide variety of monkeys, including the world's most abundant monkey species, the spider monkey.
+
+
+2. The African continent is the largest continent in the world, and it is home to a wide variety of monkeys, including the world's most abundant monkey species, the bonobo.
+
+
+3. The Friend's House is not a large land mass that is home to monkeys.
+
+
+4. The Research Laboratory is not a large land mass that is home to monkeys.
+
+
+5. The Amazon basin is home to the most monkeys of all the choices.
+
+Therefore, the answer is A) Amazon Basin.",A,False,cot,gemma-2b,csqa
+940,"Billy was reading the newspaper as he commuted to work, but once he got to his destination he balled it up and put it somewhere. Where did it put it?",A,":
+
+1. Billy was reading the newspaper as he commuted to work.
+2. Once he got to his destination, he balled it up.
+3. He put it somewhere.
+
+The correct answer is **D) ground**.",D,False,cot,gemma-2b,csqa
+1098,How does going jogging generally affect one's self esteem?,A,":
+
+1. Going jogging is a physical activity that involves cardiovascular exercise.
+2. Cardiovascular exercise can lead to increased self-esteem.
+3. Increased self-esteem can lead to a sense of accomplishment and pride.
+4. A sense of accomplishment and pride can lead to a feeling of self-worth.
+
+The correct answer is B) feel pride.
+
+Going jogging can lead to increased self-esteem by promoting a sense of accomplishment and pride.",B,False,cot,gemma-2b,csqa
+255,Minerals can be obtained in what way for a person who avoids leafy greens?,A,":
+
+**Step 1:** Minerals are found in rocks and soil.
+
+**Step 2:** Leafy greens do not contain minerals.
+
+**Step 3:** Therefore, minerals cannot be obtained from leafy greens.
+
+The correct answer is **E) ore.**
+
+Minerals can be obtained from ore, which are naturally occurring deposits of minerals. A person who avoids leafy greens can obtain minerals from ore by consuming foods that are high in mineral content, such as nuts, seeds, and whole grains.",E,False,cot,gemma-2b,csqa
+775,"If someone mean wanted to insult somebody by calling them a fruit, where is probably not the smartest place to do it?",A,":
+
+The question is about where to insult someone by calling them a fruit. The choices are:
+
+A) gay bar
+B) market
+C) grocery store
+D) refrigerator
+E) container
+
+The correct answer is C) grocery store.
+
+The grocery store is a place where people go to buy food and other goods. It is not a place where people are likely to be insulted.",C,False,cot,gemma-2b,csqa
+161,"The extremely large cargo plane could only land at a specialized runway, these were only located at a what?",D,":
+
+1. The extremely large cargo plane needs to land.
+2. The only runway that can accommodate this plane is located at a military base.
+3. The military base is located in a city.
+
+Therefore, the answer is D) military base.",D,True,cot,gemma-2b,csqa
+1130,If you own a cat where is the last place you'd want to find it?,B,":
+
+1. The last place you'd want to find a cat is in the **home**.
+2. The home is a place where cats are most likely to be found.
+3. The home is also a place where people are most likely to be looking for a cat.
+
+Therefore, the answer is **E) home**.",D,False,cot,gemma-2b,csqa
+600,John loved to paint houses.  How did he usually do it?,B,":
+
+1. John loved to paint houses.
+2. He usually did it with a brush.
+3. Therefore, he used a brush to paint houses.
+
+The correct answer is **B) with brush**",A,False,cot,gemma-2b,csqa
+740,"Ficus can be planted in a yard to make summer more bearable, what sort of areas do they create?",A,":
+
+1. Ficus trees need full sun to thrive.
+2. They thrive in warm weather and tolerate temperatures up to 80 degrees Fahrenheit.
+3. They need well-draining soil with a pH between 5.5 and 7.0.
+4. They need regular watering, especially during hot weather.
+5. They need regular pruning to remove dead or diseased branches.
+
+Based on the information provided, which area would be best suited for planting Ficus trees?
+
+A) shady places
+B) screened porch
+C) pots
+D) ceramics
+E) clay pot",A,True,cot,gemma-2b,csqa
+1182,"Computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this what?",B,":
+
+**Step 1:** Computers have allowed everybody to answer questions they have quickly.
+
+**Step 2:** Despite access to this, we seem to be getting duller.
+
+**Step 3:** What is the cause of this dullness?
+
+**Step 4:** We need to identify the cause of this dullness.
+
+**Step 5:** Once we identify the cause, we can work on finding a solution.
+
+**Step 6:** We can then evaluate the effectiveness of our solution.
+
+**Step 7:** We can then make necessary adjustments to our approach.
+
+Which step is most important in this process?
+
+A) Step 1
+B) Step 2
+C) Step 3
+D) Step 4
+E) Step 6
+
+Answer: A) Step 1
+
+The most important step in this process is step 1, as it lays the foundation for the entire process. Without a clear understanding of the purpose and scope of the project, it would be difficult to identify the cause of the dullness and develop a solution that would be effective.",A,False,cot,gemma-2b,csqa
+393,Sam couldn't get back to sleep because of a dream he had.  It was a what?,E,":
+
+1. Sam had a dream.
+2. The dream was about a what?
+3. The dream was not real.
+4. The dream was a dreamworker.
+5. The dream was a nightmare.
+
+The correct answer is E) nightmare.",E,True,cot,gemma-2b,csqa
+142,"Sam was a stranger.  Even so, Mark treated him like what?",B,":
+
+Mark treated Sam like a known person.  He was not a stranger, and he treated him with respect.",A,False,cot,gemma-2b,csqa
+93,Where can you find a number of wind instruments together in public?,E,":
+
+1. A number of wind instruments are needed to create music.
+2. These instruments are often found in a music store.
+3. A music store is a place where people go to buy or sell musical instruments and supplies.
+4. Therefore, the answer is D) music room.
+
+The correct answer is D) Music room.",D,False,cot,gemma-2b,csqa
+466,What do humans do to other humans after death?,B,":
+
+**Step 1: The body is taken care of by family and friends.**
+
+**Step 2: The body is prepared for burial.**
+
+**Step 3: The body is buried in a grave or placed in a casket.**
+
+**Step 4: The body is laid to rest.**
+
+**Step 5: The body is cremated or otherwise disposed of.**
+
+**Step 6: The remains are buried or scattered.**
+
+**Step 7: The family and friends come to terms with the loss of the loved one.**
+
+**Step 8: The community comes to terms with the loss of the loved one.**
+
+**Step 9: The loved one is remembered in a memorial or through other means.**
+
+**Step 10: The family and friends come to terms with the loss of the loved one.**
+
+The correct answer is **B) burial.**
+
+Burial is the process of burying a dead person in a grave or other permanent structure.",A,False,cot,gemma-2b,csqa
+592,"The shark actually counted as evidence, so where did the legal team bring it?",A,":
+
+The shark was found in a deep part of the ocean, not in a shallow water, court room, or sea world. Therefore, the correct answer is **A) court room**.",A,True,cot,gemma-2b,csqa
+163,How can someone be let into a brownstone?,B,":
+
+1. The question asks how someone can be let into a brownstone.
+2. Brownstones are typically located in Brooklyn.
+3. The question also asks where in Brooklyn they are located.
+4. Therefore, the answer is **A) Brooklyn**.
+
+The correct answer is A) Brooklyn.",A,False,cot,gemma-2b,csqa
+206,Where would stones not be arranged in a path?,B,":
+
+If stones are arranged in a path, they would be arranged in a sequence that follows the path. However, if the path is not linear, the stones would not be arranged in a path.
+
+The correct answer is D) bridge. A bridge is not a path, and stones would not be arranged in a path on a bridge.",D,False,cot,gemma-2b,csqa
+928,Where do you keep extra clothing on a hike?,E,":
+
+1. On a hike, you need extra clothing for warmth, protection from the elements, and comfort.
+2. You need to keep this extra clothing separate from the rest of your gear.
+3. You need a place to store this extra clothing.
+4. The best place to keep extra clothing is in your backpack.
+5. The answer is E.
+
+So, the correct answer is **E. Backpack**.",E,True,cot,gemma-2b,csqa
+747,"The homeowner frowned at the price of gas, what did he have to do later?",D,":
+
+The homeowner frowned at the price of gas, so he must have been thinking about his energy consumption. He then had to do something to address the issue, which could be one of the following:
+
+A) own home
+B) mail property tax payments
+C) board windows
+D) cut grass
+E) receive mail
+
+The correct answer is **A) own home**
+
+The homeowner had to take action to address the issue of the high gas price, and owning his home was the solution that he chose.",A,False,cot,gemma-2b,csqa
+333,What is happening while he's playing basketball for such a long time?,A,":
+
+1. He's playing basketball for a long time.
+2. He's sweating.
+3. He's experiencing pain.
+4. He's having fun.
+5. He might have a knee injury.
+
+The correct answer is **A) sweating**
+
+Explanation: While he's playing basketball, he's sweating, which is a common symptom of physical exertion.",A,True,cot,gemma-2b,csqa
+758,"Where can you buy a magazine, paper or gum?",D,":
+
+1. The question is about where to buy a magazine, paper or gum.
+2. The answer is D) newsstand.
+3. The newsstand is a place where people buy newspapers, magazines, and other printed materials.",D,True,cot,gemma-2b,csqa
+727,Where can books be read?,C,":
+
+1. Books are placed on a shelf.
+2. The shelf is placed on a table.
+3. The table is placed on the floor.
+4. The floor is placed on the ground.
+5. The ground is placed on the sink.
+
+Therefore, the correct answer is D) shelf.",D,False,cot,gemma-2b,csqa
+429,Where do you keep musical instrument so it doesn't get scratched?,C,":
+
+**Step 1:** An instrument is a valuable item that deserves to be protected.
+
+**Step 2:** A bank is not a place where musical instruments are kept.
+
+**Step 3:** An orchestra is a large group of musicians who perform together.
+
+**Step 4:** A case is a place where an instrument is stored.
+
+**Step 5:** A music room is a dedicated space for music practice and performance.
+
+**Step 6:** A movie is not a place where musical instruments are kept.
+
+**Answer: D) Music room**
+
+The music room is a dedicated space for music practice and performance, where musical instruments are kept safe and protected from damage.",D,False,cot,gemma-2b,csqa
+546,What can eating hamburger cause immediately after eating it?,D,":
+
+Eating a hamburger can cause several health problems, including indigestion, heartburn, and obesity.",A,False,cot,gemma-2b,csqa
+146,To play sports professionally you must do what very often?,C,":
+
+**Step 1:** Wash your clothes.
+
+**Step 2:** Get in shape.
+
+**Step 3:** Practice.
+
+**Step 4:** Take off uniform.
+
+**Step 5:** Stretch.
+
+Therefore, the correct answer is **C) practice.**",C,True,cot,gemma-2b,csqa
+350,"Where can you buy a clock, clothing and wrenches?",E,":
+
+1. You need a clock.
+2. You need clothing.
+3. You need wrenches.
+
+The correct answer is E) department store. A department store is a place where you can buy a wide variety of goods, including clocks, clothing, and wrenches.",E,True,cot,gemma-2b,csqa
+1093,What is likely to have a better school cafeteria?,C,":
+
+**Step 1: Analyze the options.**
+
+* **A) High school:** High schools have dedicated school cafeterias with a wide range of food options and seating arrangements.
+* **B) Canteen:** Canteens are often found in schools and offer basic, affordable meals.
+* **C) Polytechnic:** Polytechnics may have a cafeteria, but it may not be as extensive as those found in high schools or canteens.
+* **D) Large room:** A large room can be a venue for various events, but it is unlikely to have a dedicated school cafeteria.
+* **E) All kinds of schools:** This option is the most inclusive, as schools of all types may have cafeterias with different offerings.
+
+**Step 2: Eliminate the unlikely choices.**
+
+* **D) Large room:** A large room is not a typical school setting and is unlikely to have a dedicated cafeteria.
+* **E) All kinds of schools:** This option eliminates the possibility of a school having no cafeteria.
+
+**Step 3: Consider the remaining choices.**
+
+* **A) High school:** High schools are more likely to have a well-equipped and diverse school cafeteria with a wide range of food options.
+* **B) Canteen:** Canteens can be basic, but they may still offer a limited selection of meals.
+
+Therefore, the answer is **A) High school**.",A,False,cot,gemma-2b,csqa
+334,A traveler laments the fact that mass transit is limited in his city when his groceries get soaked by the rain as he waits where?,A,":
+
+1. The traveler is lamenting the limited mass transit options in his city.
+2. He is waiting where?
+3. He is waiting at a bus stop.
+
+Therefore, the answer is **A) bus stop**.",A,True,cot,gemma-2b,csqa
+946,Why might a person be known as a liar?,B,":
+
+**Step 1:** A person might be known as a liar because they have no home.
+
+**Step 2:** A person might be known as a liar because they lie.
+
+**Step 3:** A person might be known as a liar because they tell lies.
+
+**Step 4:** A person might be known as a liar because they are dishonest.
+
+**Step 5:** A person might be known as a liar because they are deceitful.
+
+**Step 6:** A person might be known as a liar because they are untrustworthy.
+
+**Step 7:** A person might be known as a liar because they are dishonest.
+
+Therefore, the answer is **C) hungry**
+
+A person who is hungry may tell lies to get food or avoid work.",A,False,cot,gemma-2b,csqa
+777,What would you be building if you designed a place for an annoying critter to stay?,E,":
+
+**Step 1: Understand the critter's needs.**
+
+The critter would need a safe and secluded place to hide from predators, a place to sleep, and a place to hide food and water.
+
+**Step 2: Design the critter's home.**
+
+The critter's home should be made of a material that is resistant to chewing and scratching, such as wood, plastic, or metal. The home should be small and simple, with a single entrance and a few hiding spots.
+
+**Step 3: Make the critter's home accessible.**
+
+The critter's home should be located in a place that is easily accessible to the critter, but out of the way of predators.
+
+**Step 4: Decorate the critter's home.**
+
+The critter's home can be decorated with items that provide the critter with comfort and security, such as a nest, a bed, and a food and water dish.
+
+**Step 5: Make the critter's home safe.**
+
+The critter's home should be equipped with a light source to deter predators and a lock to keep the critter safe from other animals.
+
+**Step 6: Make the critter's home fun.**
+
+The critter's home can include toys, tunnels, and other features that will keep the critter entertained.
+
+**Step 7: Test the critter's home.**
+
+Before putting the critter in its home, test it to make sure that it is comfortable and safe.",A,False,cot,gemma-2b,csqa
+552,Where is a statute found on a platform?,D,":
+
+A statute is a piece of legislation that is passed by a legislative body and enforced by the government. A statute is not found on a platform. The correct answer is A) below.",A,False,cot,gemma-2b,csqa
+1140,"After killing people, the murderer went to church after feeling what?",B,":
+
+After killing people, the murderer would feel a range of emotions, including shock, anger, and guilt. These emotions would likely lead them to seek solace and support in a place of worship, such as church. The murderer may feel a sense of guilt and remorse for their actions, and they may seek to find forgiveness and redemption through prayer and religious rituals.
+
+The correct answer is B) remorse.",B,True,cot,gemma-2b,csqa
+449,What is a place that has large cable hanging overhead?,D,":
+
+A radio shack is a place that houses and operates a radio station. It typically has large antennas hanging overhead.
+
+The answer is **A) radio shack**",A,False,cot,gemma-2b,csqa
+664,"When an elderly person needs help performing daily tasks, who might they call?",C,":
+
+1. Elderly people often have difficulty performing daily tasks.
+2. They may need help with activities such as bathing, dressing, eating, or getting around.
+3. There are people who can provide help, such as family members, friends, caregivers, or professionals.
+
+The correct answer is **C) caregiver.**
+
+A caregiver is a person who provides personal care and assistance to an elderly person who is unable to perform daily tasks on their own.",C,True,cot,gemma-2b,csqa
+114,"A man wants air conditioning while we watches the game on Saturday, where will it likely be installed?",B,":
+
+1. The man wants air conditioning.
+2. The man is watching a game on Saturday.
+3. The man is likely at home.
+4. The man's home likely has a window unit or a central air system.
+5. The man's home likely has the capacity to install an air conditioner.
+
+Therefore, the answer is **B) house**.",A,False,cot,gemma-2b,csqa
+469,"A patriotic guy with a camera is looking for a bald eagle, what is he likely to do with the eagle if he finds one?",E,":
+
+1. The guy finds a bald eagle.
+2. He takes a picture of the eagle.
+3. He develops the picture.
+4. He prints the picture.
+5. He hangs the picture in his home.
+
+So, the answer is **E) photograph**.",A,False,cot,gemma-2b,csqa
+646,What is a person who is good at sports considered?,C,":
+
+A person who is good at sports is someone who participates in sports and is skilled at it. So, the answer is **C) talented**.",A,False,cot,gemma-2b,csqa
+821,A creek could be located in the opposite for the city which is called what?,E,":
+
+A creek is a body of water that flows from a higher elevation to a lower elevation. The city is a place where people live, work, and go about their daily lives. So, the opposite of the city would be a place where water flows away from, not towards, the city. The correct answer is C) valley.",C,False,cot,gemma-2b,csqa
+548,"The man got a pail to catch the draining motor oil, where was he likely doing this at home?",A,":
+
+The man got a pail to catch the draining motor oil. We need to find out where he was likely doing this at home.
+
+The garage is a common place for people to work on cars, so it is a likely answer.
+
+The hardware store is another place where people can purchase tools and supplies for car repairs.
+
+The utility room is a room in a house that contains plumbing, electrical, and other utility equipment. It is also a likely place for people to work on cars.
+
+The wishing well is not a place where people are likely to be changing motor oil.
+
+The laundry is not a place where people are likely to be changing motor oil.
+
+Therefore, the garage is the most likely answer.",A,True,cot,gemma-2b,csqa
+135,"The tourist entered Mammoth cave, what state were they in?",B,":
+
+Mammoth Cave is located in Mammoth Cave National Park in Kentucky. The park is located in the Appalachian Mountains of the United States.
+
+The tourist entered Mammoth Cave, which is located in Kentucky.
+
+Therefore, the tourist was in Kentucky when they entered Mammoth Cave.",,False,cot,gemma-2b,csqa
+432,When we are running what are we doing?,D,":
+
+1. We are standing.
+2. We take a step forward.
+3. We continue taking steps until we reach a certain point.
+4. We stop and rest.
+
+So, when we are running, we are taking steps forward.",A,False,cot,gemma-2b,csqa
+1161,"Copulating with the wrong partner may be ill advised, many diseases can be transferred that can cause different types of what?",E,":
+
+1. Copulating with the wrong partner may be ill advised.
+2. Many diseases can be transferred that can cause different types of what?
+3. The answer is C. period of rest
+
+The correct answer is C. period of rest.
+
+Explanation: A period of rest is a natural part of the reproductive process that allows the body to recover and prepare for fertilization. Copulating with the wrong partner can disrupt this process and increase the risk of sexually transmitted diseases (STDs).",C,False,cot,gemma-2b,csqa
+644,Where would you find an office worker gossiping with their colleagues?,A,":
+
+1. An office worker is gossiping with their colleagues.
+2. The office worker is in a water cooler.
+3. The office worker is on a space shuttle.
+4. The office worker is at a baby shower.
+5. The office worker is hanging out with their family.
+
+The correct answer is A) water cooler.",A,True,cot,gemma-2b,csqa
+435,Zane doesn't like answering questions.  He's not good at it because he suffers from what?,D,":
+
+**Step 1:** Identify the problem.
+Zane's reluctance to answer questions is a problem because he struggles with the social interaction associated with answering them.
+
+**Step 2:** Eliminate the other choices.
+* **A) panic:** While panic can cause anxiety and avoidance, it's not the primary cause of Zane's behavior.
+* **B) discussion:** While discussions can be challenging, they're not the main obstacle to Zane's ability to answer questions.
+* **C) attention:** While attention issues can affect focus, they're not the primary cause of Zane's reluctance.
+* **D) confusion:** While confusion can make it difficult to understand and respond to questions, it's not the main cause of Zane's behavior.
+* **E) satisfaction:** While satisfaction can motivate people to engage in social interactions, it's not the primary cause of Zane's avoidance.
+
+**Therefore, the correct answer is D) confusion.**
+
+**Explanation:**
+
+Confusion is the main cause of Zane's reluctance to answer questions. When Zane is confused, it can make it difficult for him to understand and respond to questions, leading to avoidance.",D,True,cot,gemma-2b,csqa
+1022,What is unlikely to get bugs on its windshield due to bugs' inability to reach it when it is moving?,A,":
+
+An airplane, scooter, and motorboat are all vehicles that are unlikely to get bugs on their windshields due to the fact that they are not moving when they are covered. A car, on the other hand, is a vehicle that is designed to move, and its windshield is more likely to be affected by bugs than the windshields of other vehicles. Therefore, the correct answer is D) car.",D,False,cot,gemma-2b,csqa
+810,"He used an umbrella while tanning, where was he likely?",D,":
+
+The question asks where he used an umbrella while tanning. We know he used an umbrella, but we don't have any information about where he was. We need to look for clues in the question that tell us where he was.
+
+The answer is D) beach.
+
+The beach is a place where people often go to relax and enjoy the sun. It is a likely place for someone to be tanning.",D,True,cot,gemma-2b,csqa
+939,What is the thing that is agitated in your head when kissing?,E,":
+
+1. When you kiss someone, your tongue comes into contact with their mouth and nose.
+2. This triggers the release of neurotransmitters, which are chemical messengers that transmit signals between neurons.
+3. These neurotransmitters cause a variety of physiological changes, including increased heart rate, blood pressure, and breathing.
+4. These changes can also cause a feeling of agitation or excitement.
+5. Therefore, the thing that is agitated in your head when kissing is the feeling of excitement or agitation caused by the release of neurotransmitters.
+
+The correct answer is D) catch cold.",D,False,cot,gemma-2b,csqa
+292,What are people likely to want to do with their friends?,E,":
+
+**Step 1:** People want to do things with their friends.
+
+**Step 2:** What do people want to do with their friends?
+
+**Step 3:** Talking to each other is a common activity people do with their friends.
+
+**Step 4:** Talking to each other can be a way for people to connect and build relationships.
+
+**Step 5:** The answer is C.
+
+Therefore, the answer is **C. talk to each other**.",C,False,cot,gemma-2b,csqa
+542,"The man took paperwork to other people to consult over it, where was he heading?",B,":
+
+The man took paperwork to other people to consult over it. The question is where he was heading. The answer is **C) office**.
+
+The man took paperwork to the office to consult over it.",C,False,cot,gemma-2b,csqa
+505,John wanted to clean all of the dust out of his place before settling down to watch his favorite shows.  What might he hardest do dust?,D,":
+
+1. John wants to clean all of the dust out of his place.
+2. He needs to clean something.
+3. He needs to clean something that is not in a closet, under the bed, or the television.
+4. The attic is the only place that is not in the closet, under the bed, or the television.
+
+Therefore, the answer is D) attic.",D,True,cot,gemma-2b,csqa
+1103,"The buildings were intended to not have residential kitchens in them, what were they designed for?",D,":
+
+The buildings were intended to not have residential kitchens in them, so they would not be suitable for families with young children or those who need to prepare meals on a regular basis. They were designed for a specific purpose, which was not to provide a place for people to live.",A,False,cot,gemma-2b,csqa
+538,Stabbing to death of a person is what sort of way to die?,B,":
+
+1. Stabbing someone to death is a violent act.
+2. Violence is a serious issue that can have devastating consequences.
+3. Killing someone is a very serious crime.
+4. Stabbing to death is a very serious crime.
+5. The act of stabbing to death is morally reprehensible.
+
+The correct answer is **E) killing.**",A,False,cot,gemma-2b,csqa
+1197,Where can you find a place to eat in an urban area close to local nightlife?,B,":
+
+1. **City:** A city is a large urban area with a diverse population and a wide range of amenities, including restaurants. However, it may not be the most convenient location for nightlife.
+2. **Downtown:** Downtown is the central business district of a city and often has a vibrant nightlife scene. However, it can be expensive and crowded.
+3. **Mall:** A mall is a large shopping center with a variety of stores and restaurants. While malls can be convenient for dining, they may not be the most lively nightlife destination.
+4. **Shopping center:** A shopping center is a large complex with a variety of stores and restaurants. While shopping centers can be convenient for dining, they may not have the same nightlife atmosphere as other options.
+5. **Own house:** An own house is not a typical location for eating out, and may not be in a central location.
+6. **E:** An own house is not a typical location for eating out, and may not be in a central location.
+
+The correct answer is **B) downtown**. Downtown is a central location with a vibrant nightlife scene, making it a good place to find a place to eat close to local nightlife.",A,False,cot,gemma-2b,csqa
+877,What should everyone do who doesn't want to fight anymore?,C,":
+
+**Step 1: Reflect on the situation.**
+- Identify the root cause of the desire to stop fighting.
+- Consider the impact of fighting on oneself and others.
+
+**Step 2: Evaluate the situation objectively.**
+- Assess the situation's potential benefits and drawbacks.
+- Consider the possibility of finding peaceful solutions.
+
+**Step 3: Explore alternative options.**
+- Identify other ways to resolve conflicts or achieve desired outcomes.
+- Consider communication, mediation, or seeking support from others.
+
+**Step 4: Reflect on personal values and beliefs.**
+- Consider what is most important to you in life.
+- Determine if continuing to fight aligns with those values.
+
+**Step 5: Make a conscious decision.**
+- Reflect on the potential consequences of continuing to fight.
+- Consider the impact on yourself, others, and the situation.
+
+**Step 6: Take action accordingly.**
+- If the desire to stop fighting is strong, consider seeking support or exploring alternative options.
+- Communicate your decision to others and be open to new perspectives.
+
+**Step 7: Reflect on the decision and its impact.**
+- Evaluate the outcomes of your decision and its long-term effects.
+- Consider whether it was the right choice for you and the situation.",A,False,cot,gemma-2b,csqa
+1195,"The lion sensed his competitor was timid, so what attitude did the lion take?",D,":
+
+The lion sensed his competitor was timid, so what attitude did the lion take?
+
+**C) Defensive**
+
+The lion took a defensive attitude by sensing its competitor's timidity and responding accordingly.",C,False,cot,gemma-2b,csqa
+817,"If someone is found to be committing murder, what did they do to someone?",B,":
+
+1. If someone is found to be committing murder, they are accused of a crime.
+2. The accused is taken to court.
+3. The court hears the evidence and decides the case.
+4. If the court finds the accused guilty, they are sentenced to prison.
+
+Therefore, the answer is **B) kill**.",A,False,cot,gemma-2b,csqa
+741,Children's behavior is a direct reflection of their what?,A,":
+
+1. Children's behavior is influenced by their parents.
+2. Parents set the boundaries and expectations for their children.
+3. Children learn and develop through their experiences.
+4. Children's behavior is a reflection of their social interactions.
+5. Children's behavior is a direct reflection of their emotional state.
+
+The correct answer is A) parents.
+
+Explanation: Children's behavior is a direct reflection of their parents. Parents set the boundaries and expectations for their children, and they provide the care and support that children need to develop and learn.",A,True,cot,gemma-2b,csqa
+283,Where are horses judged on appearance?,B,":
+
+1. Horses are judged on appearance by humans.
+2. Humans judge horses on appearance.
+3. Humans judge horses on appearance in a field.
+4. Horses are judged on appearance in a race track.
+5. Horses are judged on appearance in a countryside setting.
+
+The correct answer is **D) in a field.**
+
+Horses are judged on their appearance by humans in a field setting.",A,False,cot,gemma-2b,csqa
+1043,What do people usually feel when falling in love?,C,":
+
+1. When someone falls in love, they experience a surge of emotions, including happiness, excitement, and butterflies in the stomach.
+2. As the initial excitement subsides, a more profound sense of connection and intimacy develops.
+3. This feeling of connection can lead to feelings of vulnerability and a deep desire to protect the loved one.
+4. As the love deepens, it can also lead to feelings of possessiveness and a need to control the loved one's actions.
+5. If the love is strong enough, it can lead to a deep emotional bond and a sense of security.
+6. Finally, when the love is truly strong, it can lead to a feeling of happiness and contentment.
+
+The correct answer is **C) happiness.**
+
+Falling in love is often associated with a feeling of happiness and contentment.",A,False,cot,gemma-2b,csqa
+1010,"If a small flying animal picks up a string, where are they taking it?",A,":
+
+1. The small flying animal picks up a string.
+2. The string is attached to the animal's body.
+3. The animal takes the string somewhere.
+4. The animal's body is moving, so the string is pulled along.
+5. The animal is taking the string to a new location.
+
+So, the answer is **D) kite.**",A,True,cot,gemma-2b,csqa
+186,What could suddenly stop someone when he or she is running?,B,":
+
+1. A sudden stop could be caused by exhaustion.
+2. Exhaustion could be caused by sweating.
+3. Sweating could be caused by a fall.
+4. A fall could be caused by a sudden stop.
+5. Getting tired could be caused by a sudden stop.
+
+The correct answer is D) exhaustion.
+
+Explanation: Exhaustion can cause a sudden stop in running because it reduces the body's ability to produce energy. When the body is exhausted, it cannot produce as much energy, which can lead to a sudden decrease in performance and a stop.",D,False,cot,gemma-2b,csqa
+96,Billy set aside a block of time for having fun after work. Why might he do this?,B,":
+
+Billy sets aside a block of time for having fun after work. This is a choice that is related to the concept of having fun. Therefore, the answer is **B) stress relief**.",A,False,cot,gemma-2b,csqa
