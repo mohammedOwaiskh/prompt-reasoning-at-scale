@@ -136,13 +136,22 @@ pip install -r requirements.txt
 ```
 
 ### 3. Set up HuggingFace authentication
-Create a `.env` file in the repo root:
-```
-HF_TOKEN=hf_your_token_here
-```
-Get your token at [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens). Make sure your account has accepted the Gemma license.
+This project uses Google Colab's built-in Secrets Manager to store tokens securely.
 
-> ⚠️ Never commit your `.env` file. It is listed in `.gitignore`.
+1. In Colab, click the 🔑 **key icon** in the left sidebar
+2. Add a secret named `HF_TOKEN` with your HuggingFace access token as the value
+3. Get your token at [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
+4. Make sure your HuggingFace account has accepted the Gemma license at [huggingface.co/google/gemma-2b-it](https://huggingface.co/google/gemma-2b-it)
+
+Then load it in your notebook before running any experiments:
+```python
+from google.colab import userdata
+from huggingface_hub import login
+
+login(userdata.get('HF_TOKEN'))
+```
+
+> ⚠️ Never hardcode your token directly in a notebook cell that gets committed to GitHub.
 
 ### 4. Sample data (run once)
 ```bash
@@ -204,7 +213,7 @@ All experiments were conducted on a free-tier Google Colab instance with an NVID
 - Mohammed Owais Khan
 - Zaina Naaz Mohd Kalim Ansari
 
-*Term paper submitted for the Machine Learning for Natural Language Understanding module.*
+*Term paper submitted for the Trends in Machine Learning module.*
 
 ---
 
