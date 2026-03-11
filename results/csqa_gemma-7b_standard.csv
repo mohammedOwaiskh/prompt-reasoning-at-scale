@@ -1,0 +1,334 @@
+id,question,ground_truth,raw_output,predicted,correct,strategy,model,dataset
+228,You can do knitting to get the feeling of what?,A," A
+
+The act of knitting is relaxing and can help to reduce stress and anxiety.",A,True,standard,gemma-7b,csqa
+51,"If I was getting drunk, and people couldn't understand me, what might I be having?",B," B
+
+The answer is B. If you were getting drunk and people couldn't understand you, you would most likely be having slurred speech.",B,True,standard,gemma-7b,csqa
+563,If you turn off the music in a room with no other noise that room would be what?,A," C
+
+The answer is C. If there is no music or other noise in a room, it would be silent.",C,False,standard,gemma-7b,csqa
+501,"By learning about the world, many poor college students gain what?",C," B
+
+The text states that ""by learning about the world, many poor college students gain greater mobility.""",B,False,standard,gemma-7b,csqa
+457,What is it called when a person tends to leave things to the last minute?,A," A
+
+The answer is A. Procrastination is the act of delaying or postponing a task.",A,True,standard,gemma-7b,csqa
+285,While knitting you can do what using a radio?,A," A
+
+The answer is A.
+
+While knitting, you can listen to music.",A,True,standard,gemma-7b,csqa
+209,What is likely to happen to someone who is learning?,C," E
+
+Explanation:
+When someone is learning, they are likely to grow. This is because learning is a process that requires growth and development. As a person learns new information and skills, they will naturally grow in their knowledge and ability to apply that information and skills.",E,False,standard,gemma-7b,csqa
+1116,Where is a bird likely to make it's home?,A," B
+
+The answer is B. Birds make their homes in nests.",B,False,standard,gemma-7b,csqa
+178,Why would you be watching tv instead of doing something else?,C," E
+
+The answer is E.
+
+You would be watching TV instead of doing something else because you are wasting time.",E,False,standard,gemma-7b,csqa
+1209,"If I did not have a rosebush, where would I get one?",C," C
+
+The answer is C. If you did not have a rosebush, you would go to a garden center to get one.",C,True,standard,gemma-7b,csqa
+864,"He looked at the field of pumps, all slowing churning oil out of the what?",D," D) Ground
+
+The text describes a field of pumps that are extracting oil from the ground.",D,True,standard,gemma-7b,csqa
+65,Where is a human likely to go as a result of being hungry?,A," C
+
+The answer is C.
+
+When a human is hungry, they are likely to have lunch.",C,False,standard,gemma-7b,csqa
+61,Where would a computer user be using their own computer?,E," E
+
+The answer is E.
+
+A computer user would be using their own computer in their house.",E,True,standard,gemma-7b,csqa
+191,"The computer was difficult for he to understand at the store, so what did she sign up for to learn more?",E," A
+
+The text states that the computer was difficult for ""he"" to understand at the store, so the text is referring to a male person. The text also states that the person signed up for a class to learn more, so the answer is A.",A,False,standard,gemma-7b,csqa
+447,Sage loved communicating  He liked doing what with his peers?,A," A
+
+The text describes Sage, who loved communicating and interacting with his peers. The text also states that he liked exchanging ideas. Therefore, the answer is A.",A,True,standard,gemma-7b,csqa
+476,"The neighborhood had a great sense of community, there was always a crowd at the landing of the what?",E," A
+
+The answer is A. The neighborhood had a great sense of community, and there was always a crowd at the landing of the stairwell.",A,False,standard,gemma-7b,csqa
+1034,"If you have a condo in a Wisconsin city known for beer, where are you?",E," E
+
+The answer is E.
+
+The city of Milwaukee is known for beer.",E,True,standard,gemma-7b,csqa
+54,Talking to the same person about the same thing over and over again is something someone can what?,D," D
+
+The answer is D.
+
+Talking to the same person about the same thing over and over again can get tiring.",D,True,standard,gemma-7b,csqa
+1149,"A farmer sees a weasel in the woods, where is the farmer?",D," D) Great outdoors
+
+The farmer is in the great outdoors.",D,True,standard,gemma-7b,csqa
+407,What did the adult do before the job interview?,B," B
+
+The adult dressed himself before the job interview.",B,True,standard,gemma-7b,csqa
+859,Where would you get a pen if you do not have one?,C," B
+
+The answer is B because if you do not have a pen, you would most likely get one from your desk drawer.",B,False,standard,gemma-7b,csqa
+451,What might a person be watching if they see a man with a suitcase full of money?,B," B
+
+The text describes a man with a suitcase full of money. The text does not mention any other information about the context of the situation. Therefore, the most reasonable answer is B.",B,True,standard,gemma-7b,csqa
+919,James need to use a toilet but there were no public ones in sight.  Eventually he broke down and did something very expensive so that he could get a toilet.  Where might he have gone?,A," A
+
+The text describes James needing to use a toilet but not finding any public ones. He eventually broke down and did something expensive to get a toilet. The text also states that he was in a motel room. Therefore, the answer is A.",A,True,standard,gemma-7b,csqa
+1206,Jesse  enjoyed remembering the past because he helped him understand it.  And understanding the past helped him with doing what?,E," B
+
+The text states that Jesse enjoyed remembering the past because it helped him understand it and understand the past helped him with doing what. The answer is B.",B,False,standard,gemma-7b,csqa
+569,Where can you store you spare linens near your socks?,D," B
+
+The answer is B. You can store your spare linens near your socks in a chest.",B,False,standard,gemma-7b,csqa
+13,Aside from water and nourishment what does your dog need?,D," D
+
+The text states that the dog needs lots of attention. The answer is D.",D,True,standard,gemma-7b,csqa
+326,What room would you find many bookcases and is used for contemplation?,A," A) study
+
+The answer is A) study. A study is a room where people can study and contemplate. It is often filled with bookcases and other materials that are used for learning and contemplation.",A,True,standard,gemma-7b,csqa
+865,The department to where vendors deliver goods for sale is called what?,C," C) Receiving
+
+The department to where vendors deliver goods for sale is called the receiving department.",C,True,standard,gemma-7b,csqa
+696,What is used to grind wheat for bread?,E," E
+
+The answer is E.
+
+A mill is used to grind wheat for bread.",E,True,standard,gemma-7b,csqa
+318,"They passed a apple tree on their way to the racetrack, the were going to watch the biggest motorsport spectacle in the world where?",B," B
+
+The text describes a scenario where the reader is going to a racetrack to watch a big motorsport spectacle. The text also mentions an apple tree that was passed on the way to the racetrack. The text does not specify the location of the racetrack, therefore the answer is B.",B,True,standard,gemma-7b,csqa
+440,"If someone found out their brother was having a daughter, they would have to add a niece limb to the what?",D," D) family tree
+
+The answer is D) family tree. If someone found out their brother was having a daughter, they would have to add a niece limb to the family tree.",D,True,standard,gemma-7b,csqa
+689,"John and Judy were parents.  They had two wonderful kids who weren't always well behaved.  They were light tough, though.  They felt it was a parent's job to do what?",B," B
+
+The text describes John and Judy as parents who had two well-behaved kids. The text also states that the kids were light tough. So, the answer is B.",B,True,standard,gemma-7b,csqa
+189,"A gentleman is carrying equipment for golf, what is he likely to have?",A," A) club
+
+The gentleman is carrying equipment for golf, so he is likely to have a club.",A,True,standard,gemma-7b,csqa
+778,"The man working in the attic swatted away a bee, but soon the single bee was an entire what?",A," A) swarm
+
+The man working in the attic swatted away a single bee, and soon the single bee was an entire swarm.",A,True,standard,gemma-7b,csqa
+198,If a person with mental illness stops treatment what will likely happen?,C," C
+
+The answer is C. If a person with mental illness stops treatment, they are likely to recur.",C,True,standard,gemma-7b,csqa
+735,"The program kept getting errors, the amateur end user began to what?",E," E
+
+The program was getting errors, and the user was getting frustrated. So the answer is E.",E,True,standard,gemma-7b,csqa
+704,"Sometimes a person has a fear of water or a dislike of being wet, it is still important to make sure they are having a bath why?",E," C
+
+The answer is C.
+
+Even if a person has a fear of water or a dislike of being wet, it is still important to make sure they are having a bath to keep their skin clean and healthy.",C,False,standard,gemma-7b,csqa
+541,Where is a great place to buy fresh fruit?,E," E
+
+The answer is E.
+
+A market is a great place to buy fresh fruit.",E,True,standard,gemma-7b,csqa
+88,Which large land mass is home to the most monkeys?,E," E
+
+The African continent is home to the most monkeys.",E,True,standard,gemma-7b,csqa
+940,"Billy was reading the newspaper as he commuted to work, but once he got to his destination he balled it up and put it somewhere. Where did it put it?",A," A
+
+The answer is A. Billy was reading the newspaper as he commuted to work, so he probably balled it up and put it in the trash.",A,True,standard,gemma-7b,csqa
+1098,How does going jogging generally affect one's self esteem?,A," B
+
+The text states that going jogging generally affects one's self esteem by making them feel pride.",B,False,standard,gemma-7b,csqa
+255,Minerals can be obtained in what way for a person who avoids leafy greens?,A," E
+
+The answer is E. Minerals can be obtained in ore. Ore is a solid rock that contains minerals. People who avoid leafy greens can get their minerals from ore.",E,False,standard,gemma-7b,csqa
+775,"If someone mean wanted to insult somebody by calling them a fruit, where is probably not the smartest place to do it?",A," B) Market
+
+The answer is B) Market. It is not smart to insult someone by calling them a fruit in a market, as it is a public place and people may be more likely to hear and respond to the insult.",B,False,standard,gemma-7b,csqa
+161,"The extremely large cargo plane could only land at a specialized runway, these were only located at a what?",D," D) Military base
+
+The text describes an extremely large cargo plane that could only land at a specialized runway. The text also states that these runways were only located at military bases. Therefore, the answer is D) Military base.",D,True,standard,gemma-7b,csqa
+1130,If you own a cat where is the last place you'd want to find it?,B," B
+
+The answer is B.
+
+If you own a cat, the last place you'd want to find it is in the dog's mouth.",B,True,standard,gemma-7b,csqa
+600,John loved to paint houses.  How did he usually do it?,B," B
+
+The text states that John loved to paint houses, and the answer is B because the text describes John painting houses with a brush.",B,True,standard,gemma-7b,csqa
+740,"Ficus can be planted in a yard to make summer more bearable, what sort of areas do they create?",A," A
+
+Ficus trees are excellent for creating shady places in a yard. They are often used to shade windows and doorways, and can also be planted in pots or hanging baskets.",A,True,standard,gemma-7b,csqa
+1182,"Computers have allowed everybody to answer questions they have quickly, but still we seem to be getting duller despite access to this what?",B," B
+
+The text describes the impact of computers on knowledge acquisition and the potential impact on human intelligence. The answer is B.",B,True,standard,gemma-7b,csqa
+393,Sam couldn't get back to sleep because of a dream he had.  It was a what?,E," E
+
+The answer is E.
+
+Sam couldn't get back to sleep because of a dream he had. The dream was a nightmare.",E,True,standard,gemma-7b,csqa
+142,"Sam was a stranger.  Even so, Mark treated him like what?",B," A
+
+The text states that Sam was a stranger, and Mark treated him like a friend.",A,False,standard,gemma-7b,csqa
+93,Where can you find a number of wind instruments together in public?,E," E) Symphony
+
+The answer is E) Symphony. A symphony is a group of musicians performing music together.",E,True,standard,gemma-7b,csqa
+466,What do humans do to other humans after death?,B," E
+
+Explanation: Humans decompose the bodies of the dead as part of the natural process of decomposition.",E,False,standard,gemma-7b,csqa
+592,"The shark actually counted as evidence, so where did the legal team bring it?",A," B
+
+The shark was brought to the shallow waters to be used as evidence in the case.",B,False,standard,gemma-7b,csqa
+163,How can someone be let into a brownstone?,B," B
+
+The answer is B. To let someone into a brownstone, you would ring the bell.",B,True,standard,gemma-7b,csqa
+206,Where would stones not be arranged in a path?,B," B) field
+
+Explanation: Stones are not arranged in a path in the field. They are arranged in a path in a park, a bridge, and a quarry.",B,True,standard,gemma-7b,csqa
+928,Where do you keep extra clothing on a hike?,E," E
+
+The answer is E. Backpacks are used to store extra clothing and gear on hikes.",E,True,standard,gemma-7b,csqa
+747,"The homeowner frowned at the price of gas, what did he have to do later?",D," D) Cut grass
+
+The homeowner was frowning at the price of gas, so he had to cut the grass.",D,True,standard,gemma-7b,csqa
+333,What is happening while he's playing basketball for such a long time?,A," A
+
+The text describes a person playing basketball for a long time. The text also states that the person is sweating. Therefore, the answer is A.",A,True,standard,gemma-7b,csqa
+758,"Where can you buy a magazine, paper or gum?",D," D
+
+The answer is D. You can buy a magazine, paper or gum at the newsstand.",D,True,standard,gemma-7b,csqa
+727,Where can books be read?,C," C) table
+
+The answer is C) table. Books can be read on a table.",C,True,standard,gemma-7b,csqa
+429,Where do you keep musical instrument so it doesn't get scratched?,C," C) case
+
+The answer is C) case. Musical instruments are kept in cases to prevent them from being scratched.",C,True,standard,gemma-7b,csqa
+546,What can eating hamburger cause immediately after eating it?,D," D) Indigestion
+
+The answer is D) Indigestion. Eating a hamburger can cause indigestion immediately after eating it.",D,True,standard,gemma-7b,csqa
+146,To play sports professionally you must do what very often?,C," C
+
+Explanation: To play sports professionally, you must practice very often. In order to be successful in your sport, you must be able to practice regularly in order to improve your skills and be able to compete at a high level.",C,True,standard,gemma-7b,csqa
+350,"Where can you buy a clock, clothing and wrenches?",E," E
+
+The answer is E. You can buy a clock, clothing and wrenches in a department store.",E,True,standard,gemma-7b,csqa
+1093,What is likely to have a better school cafeteria?,C," A
+
+The text states that ""high school"" is likely to have a better school cafeteria.",A,False,standard,gemma-7b,csqa
+334,A traveler laments the fact that mass transit is limited in his city when his groceries get soaked by the rain as he waits where?,A," A
+
+The traveler is lamenting the lack of mass transit in his city. He is waiting at a bus stop when his groceries get soaked by the rain.",A,True,standard,gemma-7b,csqa
+946,Why might a person be known as a liar?,B," B
+
+The answer is B because a person who is known as a liar is someone who frequently gives false information.",B,True,standard,gemma-7b,csqa
+777,What would you be building if you designed a place for an annoying critter to stay?,E," B) Swamp
+
+The answer is B) Swamp. The text describes an annoying critter, and a swamp is a place where annoying critters might live.",B,False,standard,gemma-7b,csqa
+552,Where is a statute found on a platform?,D," A
+
+The statute is found below the platform.",A,False,standard,gemma-7b,csqa
+1140,"After killing people, the murderer went to church after feeling what?",B," B) remorse
+
+The murderer went to church after feeling remorse.",B,True,standard,gemma-7b,csqa
+449,What is a place that has large cable hanging overhead?,D," A) radio shack
+
+The answer is A) radio shack. The large cable hanging overhead is used to transmit radio signals.",A,False,standard,gemma-7b,csqa
+664,"When an elderly person needs help performing daily tasks, who might they call?",C," C) caregiver
+
+The answer is C) caregiver. When an elderly person needs help performing daily tasks, they might call a caregiver.",C,True,standard,gemma-7b,csqa
+114,"A man wants air conditioning while we watches the game on Saturday, where will it likely be installed?",B," B
+
+The text describes a scenario where a man wants air conditioning while watching a game on Saturday. The text does not mention the location of the installation, therefore the answer is B.",B,True,standard,gemma-7b,csqa
+469,"A patriotic guy with a camera is looking for a bald eagle, what is he likely to do with the eagle if he finds one?",E," E
+
+The answer is E.
+
+A patriotic guy with a camera is looking for a bald eagle, so he is likely to photograph the eagle.",E,True,standard,gemma-7b,csqa
+646,What is a person who is good at sports considered?,C," C) Talented
+
+The text states that a person who is good at sports is talented.",C,True,standard,gemma-7b,csqa
+821,A creek could be located in the opposite for the city which is called what?,E," C) Valley
+
+The answer is C) Valley. A creek could be located in a valley.",C,False,standard,gemma-7b,csqa
+548,"The man got a pail to catch the draining motor oil, where was he likely doing this at home?",A," A) garage
+
+The man was likely doing this in his garage.",A,True,standard,gemma-7b,csqa
+135,"The tourist entered Mammoth cave, what state were they in?",B," B) Kentucky
+
+The tourist entered Mammoth cave in Kentucky.",B,True,standard,gemma-7b,csqa
+432,When we are running what are we doing?,D," D
+
+The answer is D. When we are running, we are going quickly.",D,True,standard,gemma-7b,csqa
+1161,"Copulating with the wrong partner may be ill advised, many diseases can be transferred that can cause different types of what?",E," E
+
+The answer is E. Copulating with the wrong partner can cause skin irritation.",E,True,standard,gemma-7b,csqa
+644,Where would you find an office worker gossiping with their colleagues?,A," A) water cooler
+
+The office worker is gossiping with their colleagues at the water cooler.",A,True,standard,gemma-7b,csqa
+435,Zane doesn't like answering questions.  He's not good at it because he suffers from what?,D," C
+
+Zane doesn't like answering questions because he suffers from attention deficit disorder.",C,False,standard,gemma-7b,csqa
+1022,What is unlikely to get bugs on its windshield due to bugs' inability to reach it when it is moving?,A," A) airplane
+
+The answer is A) airplane because bugs are unable to reach the windshield of an airplane when it is moving.",A,True,standard,gemma-7b,csqa
+810,"He used an umbrella while tanning, where was he likely?",D," D) Beach
+
+The text describes someone using an umbrella while tanning. The most logical place for someone to be while tanning is the beach.",D,True,standard,gemma-7b,csqa
+939,What is the thing that is agitated in your head when kissing?,E," A
+
+The answer is A.
+
+When you kiss someone, your head is agitated with sexual stimulation.",A,False,standard,gemma-7b,csqa
+292,What are people likely to want to do with their friends?,E," E
+
+The answer is E. People are likely to want to spend time with their friends.",E,True,standard,gemma-7b,csqa
+542,"The man took paperwork to other people to consult over it, where was he heading?",B," B
+
+The man was heading to a meeting. He took paperwork to other people to consult over it.",B,True,standard,gemma-7b,csqa
+505,John wanted to clean all of the dust out of his place before settling down to watch his favorite shows.  What might he hardest do dust?,D," B
+
+The text describes John wanting to clean all of the dust out of his place before settling down to watch his favorite shows. The text also states that the dust is under the bed. Therefore, the answer is B.",B,False,standard,gemma-7b,csqa
+1103,"The buildings were intended to not have residential kitchens in them, what were they designed for?",D," B
+
+The buildings were designed to be small. They were not intended to have residential kitchens, so they were designed to be small.",B,False,standard,gemma-7b,csqa
+538,Stabbing to death of a person is what sort of way to die?,B," B
+
+The stabbing to death of a person is a gruesome way to die.",B,True,standard,gemma-7b,csqa
+1197,Where can you find a place to eat in an urban area close to local nightlife?,B," B
+
+The answer is B. In an urban area, there are often many places to eat close to local nightlife.",B,True,standard,gemma-7b,csqa
+877,What should everyone do who doesn't want to fight anymore?,C," C
+
+The answer is C.
+
+If you don't want to fight, you should hope for peace.",C,True,standard,gemma-7b,csqa
+1195,"The lion sensed his competitor was timid, so what attitude did the lion take?",D," B
+
+The lion sensed his competitor was timid, so he took a bellicose attitude.",B,False,standard,gemma-7b,csqa
+817,"If someone is found to be committing murder, what did they do to someone?",B," B
+
+The answer is B. If someone is found to be committing murder, they have killed someone.",B,True,standard,gemma-7b,csqa
+741,Children's behavior is a direct reflection of their what?,A," A
+
+Explanation: Children's behavior is a direct reflection of their parents. This is because children learn from their parents, and they often behave in ways that are similar to their parents.",A,True,standard,gemma-7b,csqa
+283,Where are horses judged on appearance?,B," B
+
+The answer is B. Horses are judged on appearance at the fair.",B,True,standard,gemma-7b,csqa
+1043,What do people usually feel when falling in love?,C," C
+
+The answer is C.
+
+When people fall in love, they usually feel happiness.",C,True,standard,gemma-7b,csqa
+1010,"If a small flying animal picks up a string, where are they taking it?",A," A
+
+The answer is A.
+
+A small flying animal picks up a string and takes it to its bird's nest.",A,True,standard,gemma-7b,csqa
+186,What could suddenly stop someone when he or she is running?,B," B
+
+The answer is B. If someone is running and suddenly stops, they will most likely fall down.",B,True,standard,gemma-7b,csqa
+96,Billy set aside a block of time for having fun after work. Why might he do this?,B," B
+
+The text states that Billy set aside a block of time for having fun after work. The purpose of this is to relieve stress.",B,True,standard,gemma-7b,csqa
