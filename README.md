@@ -1,6 +1,6 @@
 # prompt-reasoning-at-scale
 
-> A unified empirical evaluation of prompt-based reasoning strategies in Large Language Models.
+> A Unified Evaluation of Prompt-based reasoning strategies in Large Language Models
 
 ---
 
