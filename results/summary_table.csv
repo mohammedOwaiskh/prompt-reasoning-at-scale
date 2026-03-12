@@ -1,0 +1,5 @@
+Strategy,Model,GSM8K Accuracy (%),CSQA Accuracy (%),GSM8K Consistency (%),CSQA Consistency (%)
+Zero-shot Standard,gemma-2b,8.0,47.0,,
+Few-shot Standard,gemma-2b,6.0,43.0,,
+Zero-shot CoT,gemma-2b,12.0,34.0,,
+Self-Consistency CoT,gemma-2b,19.0,29.0,45.6,70.6
