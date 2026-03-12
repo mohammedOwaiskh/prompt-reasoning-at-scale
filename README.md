@@ -111,14 +111,12 @@ prompt-reasoning-at-scale/
 
 ## Results
 
-*Results will be updated upon completion of all experiments.*
-
-| Strategy | GSM8K Accuracy (%) | CommonsenseQA Accuracy (%) |
-|---|---|---|
-| Zero-shot Standard | — | — |
-| Few-shot Standard | — | — |
-| Zero-shot CoT | — | — |
-| Self-Consistency CoT | — | — |
+| Strategy | GSM8K Accuracy (%) | CommonsenseQA Accuracy (%) | Notes |
+|---|---|---|---|
+| Zero-shot Standard | 8% | 47% | Baseline |
+| Few-shot Standard | 6% | 43% | — |
+| Zero-shot CoT | 12% | 34% | — |
+| Self-Consistency CoT | 19% | 29% | Consistency: 45.60% / 70.60% |
 
 ---
 
