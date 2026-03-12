@@ -148,6 +148,65 @@ def plot_accuracy_by_dataset(df: pd.DataFrame):
         plt.close()
 
 
+## Added by Zaina
+def plot_consistency_rates(df: pd.DataFrame):
+    """
+    Plot the consistency rates across datasets for different models using self-consistency strategy.
+    This function filters the input dataframe for rows with 'self_consistency' strategy,
+    calculates the mean consistency rate for each model-dataset combination, and generates
+    a grouped bar chart showing the agreement rates across 5 samples.
+    Args:
+        df (pd.DataFrame): Input dataframe containing columns 'strategy', 'model', 'dataset',
+                          and 'consistency_rate'. The dataframe should include results from
+                          self-consistency experiments.
+    Returns:
+        None: Generates and saves a plot to 'results/plot_consistency_rates.png'.
+              Prints a message upon successful save. If 'consistency_rate' column is missing,
+              prints a skip message and returns early.
+    Side Effects:
+        - Creates a bar plot with dataset names on x-axis and consistency rates (%) on y-axis
+        - Saves the plot as PNG file at 'results/plot_consistency_rates.png' with 150 dpi
+        - Prints status messages to stdout
+        - Closes the matplotlib figure to free memory
+    Note:
+        Requires global variables DATASETS and MODELS to be defined.
+        Uses matplotlib styling with grid lines and legend for model identification.
+    """
+
+    sc_df = df[df["strategy"] == "self_consistency"].copy()
+    if "consistency_rate" not in sc_df.columns:
+        print("No consistency_rate column found. Skipping consistency plot.")
+        return
+
+    fig, ax = plt.subplots(figsize=(7, 4))
+    x = np.arange(len(DATASETS))
+    width = 0.35
+    colors = ["#4C72B0", "#DD8452"]
+
+    for i, model in enumerate(MODELS):
+        rates = []
+        for dataset in DATASETS:
+            subset = sc_df[(sc_df["model"] == model) & (sc_df["dataset"] == dataset)]
+            rate = subset["consistency_rate"].mean() * 100 if len(subset) > 0 else 0
+            rates.append(rate)
+        offset = (i - 0.5) * width
+        ax.bar(x + offset, rates, width, label=model, color=colors[i])
+
+    ax.set_xlabel("Dataset")
+    ax.set_ylabel("Avg Consistency Rate (%)")
+    ax.set_title("Self-Consistency: Agreement Rate Across 5 Samples", fontweight="bold")
+    ax.set_xticks(x)
+    ax.set_xticklabels([d.upper() for d in DATASETS])
+    ax.yaxis.set_major_formatter(mtick.PercentFormatter())
+    ax.set_ylim(0, 100)
+    ax.legend(title="Model")
+    ax.grid(axis="y", linestyle="--", alpha=0.5)
+
+    plt.tight_layout()
+    plt.savefig("results/plot_consistency_rates.png", dpi=150)
+    print("Saved plot: results/plot_consistency_rates.png")
+    plt.close()
+
 if __name__ == "__main__":
     print("Loading results...\n")
     df = load_all_results()
