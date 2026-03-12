@@ -3,5 +3,6 @@ datasets
 torch
 pandas
 numpy
+matplotlib
 accelerate
 bitsandbytes
