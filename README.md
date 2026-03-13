@@ -194,7 +194,7 @@ numpy>=1.24.0
 scikit-learn>=1.3.0
 sentencepiece>=0.1.99
 protobuf>=3.20.0
-python-dotenv>=1.0.0
+matplotlib>=3.10.0
 ```
 
 ---
@@ -214,7 +214,12 @@ All experiments were conducted on a free-tier Google Colab instance with an NVID
 - Cobbe, K. et al. (2021). *Training Verifiers to Solve Math Word Problems (GSM8K).* arXiv.
 - Talmor, A. et al. (2019). *CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge.* NAACL 2019.
 - Team, G. et al. (2024). *Gemma: Open Models Based on Gemini Research and Technology.* arXiv.
-
+- Kojima, T. et al. (2022). *Large Language Models are Zero-Shot 
+  Reasoners.* NeurIPS 2022.
+- Min, S. et al. (2022). *Rethinking the Role of Demonstrations for 
+  In-Context Learning.* EMNLP 2022.
+- Ouyang, L. et al. (2022). *Training Language Models to Follow 
+  Instructions with Human Feedback.* NeurIPS 2022.
 ---
 
 ## Authors
