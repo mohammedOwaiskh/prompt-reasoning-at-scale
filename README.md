@@ -133,18 +133,40 @@ prompt-reasoning-at-scale/
 
 ## Setup & Usage
 
-### 1. Clone the repository
+### Quick Start — Run in Google Colab
+
+The easiest way to reproduce all experiments is via the provided Colab notebook, 
+which contains the complete pipeline from setup to evaluation in a single place.
+
+<a href="https://colab.research.google.com/github/mohammedOwaiskh/prompt-reasoning-at-scale/blob/master/experiments.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
+
+The notebook covers:
+- Environment setup and dependency installation
+- HuggingFace authentication
+- Data sampling
+- All 4 experiment runs
+- Evaluation and plot generation
+- Pushing results to GitHub
+
+> **Hardware requirement:** A GPU runtime is required. In Colab, go to 
+> **Runtime → Change runtime type → T4 GPU** before running.
+
+---
+
+### Manual Setup — Run Locally
+
+#### 1. Clone the repository
 ```bash
 git clone https://github.com/mohammedOwaiskh/prompt-reasoning-at-scale.git
 cd prompt-reasoning-at-scale
 ```
 
-### 2. Install dependencies
+#### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Set up HuggingFace authentication
+#### 3. Set up HuggingFace authentication
 This project uses Google Colab's built-in Secrets Manager to store tokens securely.
 
 1. In Colab, click the 🔑 **key icon** in the left sidebar
@@ -162,12 +184,12 @@ login(userdata.get('HF_TOKEN'))
 
 > ⚠️ Never hardcode your token directly in a notebook cell that gets committed to GitHub.
 
-### 4. Sample data (run once)
+#### 4. Sample data (run once)
 ```bash
 python data/sample_data.py
 ```
 
-### 5. Run all experiments
+#### 5. Run all experiments
 ```bash
 python experiments/run_standard.py --model gemma-2b
 python experiments/run_fewshot.py --model gemma-2b
@@ -175,7 +197,7 @@ python experiments/run_cot.py --model gemma-2b
 python experiments/run_self_consistency.py --model gemma-2b
 ```
 
-### 6. Evaluate and generate plots
+#### 6. Evaluate and generate plots
 ```bash
 python analysis/evaluate.py
 ```
